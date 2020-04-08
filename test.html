@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <title>AR Sample</title>
+    <link href="content/style.css?v=1" type="text/css" rel="stylesheet" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="content/script.js"></script>
+</head>
+
+<body style="margin : 0px; overflow: hidden;" onclick="$('#samplevideo')[0].play()">
+    <!-- minimal loader shown until image descriptors are loaded -->
+
+    <video id="samplevideo" 
+           autoplay="true" 
+           loop="true" 
+           crossorigin="anonymous" 
+           webkit-playsinline 
+           playsinline
+           style="width:500px;display:block;margin:auto;">
+        <source src="https://anahid33.github.io/the-lab/content/man.mp4" 
+                type="video/mp4">
+    </video>
+</body></html>
