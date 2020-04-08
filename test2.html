@@ -7,21 +7,30 @@
 
     <title>AR Sample</title>
     <link href="content/style.css?v=1" type="text/css" rel="stylesheet" />
-
+<script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="content/script.js"></script>
 </head>
 
 <body style="margin : 0px; overflow: hidden;" onclick="$('#samplevideo')[0].play()">
     <!-- minimal loader shown until image descriptors are loaded -->
-
+<a-scene
+    vr-mode-ui="enabled: true;"
+    renderer="logarithmicDepthBuffer: true;"
+    embedded>
+       <a-assets>
     <video id="samplevideo" 
-           autoplay="true" 
+           autoplay 
            crossorigin="anonymous" 
            webkit-playsinline 
-           playsinline
-           style="width:500px;display:block;margin:auto;">
-        <source src="https://anahid33.github.io/the-lab/content/man.mp4" 
-                type="video/mp4">
-    </video>
+           playsinline  
+           src="https://anahid33.github.io/the-lab/content/man.mp4">
+          </video>
+  </a-assets>
+
+         <a-video src="#samplevideo" width="160" height="90" position="50 150 0"></a-video>
+    <a-entity camera="" position="" wasd-controls="" rotation="" look-controls="" aframe-injected=""></a-entity>
+
+  </a-scene>
+  
 </body></html>
