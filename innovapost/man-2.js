@@ -1818,6 +1818,12 @@ lib.ssMetadata = [
 
 
 
+(lib.journey162x = function() {
+	this.initialize(img.journey162x);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2560,1600);
+
+
 (lib.sketch = function() {
 	this.initialize(ss["man_2_atlas_"]);
 	this.gotoAndStop(0);
@@ -2046,6 +2052,21 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.instance_61.setTransform(589.95,398.55,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_61},{t:this.instance_60},{t:this.instance_59},{t:this.instance_58},{t:this.instance_57},{t:this.instance_56},{t:this.instance_55},{t:this.instance_54},{t:this.instance_53},{t:this.instance_52},{t:this.instance_51},{t:this.instance_50},{t:this.instance_49},{t:this.instance_48},{t:this.instance_47},{t:this.instance_46},{t:this.instance_45},{t:this.instance_44},{t:this.instance_43},{t:this.instance_42},{t:this.instance_41},{t:this.instance_40},{t:this.instance_39},{t:this.instance_38},{t:this.instance_37},{t:this.instance_36},{t:this.instance_35},{t:this.instance_34},{t:this.instance_33},{t:this.instance_32},{t:this.instance_31},{t:this.instance_30},{t:this.instance_29},{t:this.instance_28},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22},{t:this.instance_21},{t:this.instance_20},{t:this.instance_19},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(95));
+
+	this._renderFirstFrame();
+
+}).prototype = p = new cjs.MovieClip();
+
+
+(lib.Scene_1_Layer_8 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// Layer_8
+	this.instance = new lib.journey162x();
+	this.instance.setTransform(63,386,0.0773,0.0773);
+	this.instance._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(72).to({_off:false},0).wait(23));
 
 	this._renderFirstFrame();
 
@@ -3020,6 +3041,18 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 
 	this.timeline.addTween(cjs.Tween.get(this.___camera___instance).wait(5).to({scaleX:0.958,scaleY:0.958,x:383.6842,y:313.4921},0).wait(1).to({scaleX:0.916,scaleY:0.916,x:371.3684,y:320.9842},0).wait(1).to({scaleX:0.874,scaleY:0.874,x:359.0526,y:328.4763},0).wait(1).to({scaleX:0.832,scaleY:0.832,x:346.7368,y:335.9684},0).wait(1).to({scaleX:0.79,scaleY:0.79,x:334.4211,y:343.4605},0).wait(1).to({scaleX:0.748,scaleY:0.748,x:322.1053,y:350.9526},0).wait(1).to({scaleX:0.706,scaleY:0.706,x:309.7895,y:358.4447},0).wait(1).to({scaleX:0.664,scaleY:0.664,x:297.4737,y:365.9368},0).wait(1).to({scaleX:0.622,scaleY:0.622,x:285.1579,y:373.429},0).wait(1).to({scaleX:0.58,scaleY:0.58,x:272.8421,y:380.9211},0).wait(1).to({scaleX:0.538,scaleY:0.538,x:260.5263,y:388.4132},0).wait(1).to({scaleX:0.496,scaleY:0.496,x:248.2105,y:395.9053},0).wait(1).to({scaleX:0.454,scaleY:0.454,x:235.8947,y:403.3974},0).wait(1).to({scaleX:0.412,scaleY:0.412,x:223.579,y:410.8895},0).wait(1).to({scaleX:0.3701,scaleY:0.3701,x:211.2632,y:418.3816},0).wait(1).to({scaleX:0.3281,scaleY:0.3281,x:198.9474,y:425.8737},0).wait(1).to({scaleX:0.2861,scaleY:0.2861,x:186.6316,y:433.3658},0).wait(1).to({scaleX:0.2441,scaleY:0.2441,x:174.3158,y:440.8579},0).wait(1).to({scaleX:0.2021,scaleY:0.2021,x:162,y:448.35},0).wait(72));
 
+	// Layer_8_obj_
+	this.Layer_8 = new lib.Scene_1_Layer_8();
+	this.Layer_8.name = "Layer_8";
+	this.Layer_8.depth = 0;
+	this.Layer_8.isAttachedToCamera = 0
+	this.Layer_8.isAttachedToMask = 0
+	this.Layer_8.layerDepth = 0
+	this.Layer_8.layerIndex = 0
+	this.Layer_8.maskLayerName = 0
+
+	this.timeline.addTween(cjs.Tween.get(this.Layer_8).wait(72).to({regX:82,regY:386.4,scaleX:4.9495,scaleY:4.9495,x:0.25,y:-0.25},0).wait(23));
+
 	// body_obj_
 	this.body = new lib.Scene_1_body();
 	this.body.name = "body";
@@ -3028,7 +3061,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.body.isAttachedToCamera = 0
 	this.body.isAttachedToMask = 0
 	this.body.layerDepth = 0
-	this.body.layerIndex = 0
+	this.body.layerIndex = 1
 	this.body.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.body).wait(1).to({regY:433.3,y:433.3},0).wait(23).to({regX:114,regY:474.1,scaleX:4.9491,scaleY:4.9491,x:158.65,y:433.55},0).wait(1).to({regX:158.5,regY:433.3,scaleX:1,scaleY:1,x:202.9,y:392.6},0).wait(70));
@@ -3041,7 +3074,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.head.isAttachedToCamera = 0
 	this.head.isAttachedToMask = 0
 	this.head.layerDepth = 0
-	this.head.layerIndex = 1
+	this.head.layerIndex = 2
 	this.head.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.head).wait(1).to({regX:158.4,regY:408.5,x:158.4,y:408.5},0).wait(94));
@@ -3054,7 +3087,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.left_arm.isAttachedToCamera = 0
 	this.left_arm.isAttachedToMask = 0
 	this.left_arm.layerDepth = 0
-	this.left_arm.layerIndex = 2
+	this.left_arm.layerIndex = 3
 	this.left_arm.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.left_arm).wait(1).to({regX:147.6,x:147.6},0).wait(23).to({regX:111.8,regY:474.6,scaleX:4.9491,scaleY:4.9491,x:147.75,y:436.05},0).wait(1).to({regX:147.6,regY:435.8,scaleX:1,scaleY:1,x:183.55,y:397.05},0).wait(70));
@@ -3067,7 +3100,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.right_arm.isAttachedToCamera = 0
 	this.right_arm.isAttachedToMask = 0
 	this.right_arm.layerDepth = 0
-	this.right_arm.layerIndex = 3
+	this.right_arm.layerIndex = 4
 	this.right_arm.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.right_arm).wait(24).to({regX:115.9,regY:474.6,scaleX:4.9491,scaleY:4.9491,x:168.05,y:436.05},0).wait(1).to({regX:168.1,regY:436.1,scaleX:1,scaleY:1,x:220.25,y:397.55},0).wait(70));
@@ -3080,7 +3113,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.left_leg.isAttachedToCamera = 0
 	this.left_leg.isAttachedToMask = 0
 	this.left_leg.layerDepth = 0
-	this.left_leg.layerIndex = 4
+	this.left_leg.layerIndex = 5
 	this.left_leg.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.left_leg).wait(1).to({regY:471.7,y:471.7},0).wait(23).to({regX:112.5,regY:481.8,scaleX:4.9491,scaleY:4.9491,x:151.2,y:471.65},0).wait(1).to({regX:151.4,regY:471.7,scaleX:1,scaleY:1,x:190.3,y:461.6},0).wait(70));
@@ -3093,7 +3126,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.right_foot.isAttachedToCamera = 0
 	this.right_foot.isAttachedToMask = 0
 	this.right_foot.layerDepth = 0
-	this.right_foot.layerIndex = 5
+	this.right_foot.layerIndex = 6
 	this.right_foot.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.right_foot).wait(1).to({regX:166.9,regY:487.8,x:166.9,y:487.8},0).wait(94));
@@ -3106,7 +3139,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.right_leg.isAttachedToCamera = 0
 	this.right_leg.isAttachedToMask = 0
 	this.right_leg.layerDepth = 0
-	this.right_leg.layerIndex = 6
+	this.right_leg.layerIndex = 7
 	this.right_leg.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.right_leg).wait(24).to({regX:114.8,regY:480.9,scaleX:4.9491,scaleY:4.9491,x:162.6,y:467.2},0).wait(1).to({regX:162.5,regY:467.5,scaleX:1,scaleY:1,x:210.1,y:454.05},0).wait(70));
@@ -3119,7 +3152,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.woman_ai.isAttachedToCamera = 0
 	this.woman_ai.isAttachedToMask = 0
 	this.woman_ai.layerDepth = 0
-	this.woman_ai.layerIndex = 7
+	this.woman_ai.layerIndex = 8
 	this.woman_ai.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.woman_ai).wait(95));
@@ -3132,7 +3165,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.techman_ai.isAttachedToCamera = 0
 	this.techman_ai.isAttachedToMask = 0
 	this.techman_ai.layerDepth = 0
-	this.techman_ai.layerIndex = 8
+	this.techman_ai.layerIndex = 9
 	this.techman_ai.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.techman_ai).wait(95));
@@ -3145,7 +3178,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.scene.isAttachedToCamera = 0
 	this.scene.isAttachedToMask = 0
 	this.scene.layerDepth = 0
-	this.scene.layerIndex = 9
+	this.scene.layerIndex = 10
 	this.scene.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.scene).wait(1).to({regY:295,y:295},0).wait(23).to({regX:162.1,regY:446.1,scaleX:4.9491,scaleY:4.9491,x:396.7},0).wait(1).to({regX:396.4,regY:295,scaleX:1,scaleY:1,x:630.8,y:143.9},0).wait(70));
@@ -3158,7 +3191,7 @@ p.nominalBounds = new cjs.Rectangle(-397,-307,794,614);
 	this.layer.isAttachedToCamera = 0
 	this.layer.isAttachedToMask = 0
 	this.layer.layerDepth = 0
-	this.layer.layerIndex = 10
+	this.layer.layerIndex = 11
 	this.layer.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.layer).wait(95));
@@ -3176,9 +3209,10 @@ lib.properties = {
 	color: "#F8F8F5",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/man_2_atlas_.png", id:"man_2_atlas_"},
-		{src:"images/man_2_atlas_2.png", id:"man_2_atlas_2"},
-		{src:"sounds/dingwav.mp3", id:"dingwav"}
+		{src:"images/journey162x.png?1586448089056", id:"journey162x"},
+		{src:"images/man_2_atlas_.png?1586448088821", id:"man_2_atlas_"},
+		{src:"images/man_2_atlas_2.png?1586448088826", id:"man_2_atlas_2"},
+		{src:"sounds/dingwav.mp3?1586448089056", id:"dingwav"}
 	],
 	preloads: []
 };
