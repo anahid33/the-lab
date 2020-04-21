@@ -135,6 +135,12 @@ lib.ssMetadata = [];
 
 
 
+(lib.c1 = function() {
+	this.initialize(img.c1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
+
+
 (lib.c3 = function() {
 	this.initialize(img.c3);
 }).prototype = p = new cjs.Bitmap();
@@ -147,10 +153,22 @@ p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 p.nominalBounds = new cjs.Rectangle(0,0,8000,4500);
 
 
-(lib.map01pngcopy2 = function() {
-	this.initialize(img.map01pngcopy2);
+(lib.c4 = function() {
+	this.initialize(img.c4);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,8000,4500);
+p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
+
+
+(lib.c2 = function() {
+	this.initialize(img.c2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
+
+
+(lib.L1 = function() {
+	this.initialize(img.L1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 
 
 (lib.L4 = function() {
@@ -165,28 +183,10 @@ p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 
 
-(lib.L1 = function() {
-	this.initialize(img.L1);
+(lib.map01pngcopy2 = function() {
+	this.initialize(img.map01pngcopy2);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
-
-
-(lib.c1 = function() {
-	this.initialize(img.c1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
-
-
-(lib.c2 = function() {
-	this.initialize(img.c2);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
-
-
-(lib.c4 = function() {
-	this.initialize(img.c4);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,8000,4500);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -1409,15 +1409,15 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/c3.png", id:"c3"},
-		{src:"images/map01.png", id:"map01"},
-		{src:"images/map01pngcopy2.png", id:"map01pngcopy2"},
-		{src:"images/L4.png", id:"L4"},
-		{src:"images/L2.png", id:"L2"},
-		{src:"images/L1.png", id:"L1"},
-		{src:"images/c1.png", id:"c1"},
-		{src:"images/c2.png", id:"c2"},
-		{src:"images/c4.png", id:"c4"}
+		{src:"images/c1.png?1587498166336", id:"c1"},
+		{src:"images/c3.png?1587498166336", id:"c3"},
+		{src:"images/map01.png?1587498166336", id:"map01"},
+		{src:"images/c4.png?1587498166336", id:"c4"},
+		{src:"images/c2.png?1587498166336", id:"c2"},
+		{src:"images/L1.png?1587498166336", id:"L1"},
+		{src:"images/L4.png?1587498166336", id:"L4"},
+		{src:"images/L2.png?1587498166336", id:"L2"},
+		{src:"images/map01pngcopy2.png?1587498166336", id:"map01pngcopy2"}
 	],
 	preloads: []
 };
