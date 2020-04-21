@@ -135,34 +135,34 @@ lib.ssMetadata = [];
 
 
 
-(lib._33x = function() {
-	this.initialize(img._33x);
+(lib._53x = function() {
+	this.initialize(img._53x);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 
 
-(lib.Bitmap13 = function() {
-	this.initialize(img.Bitmap13);
+(lib.Bitmap12 = function() {
+	this.initialize(img.Bitmap12);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,440,644);
-
-
-(lib.Bitmap11 = function() {
-	this.initialize(img.Bitmap11);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,857,982);
-
-
-(lib._43x = function() {
-	this.initialize(img._43x);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 
 
 (lib.map01 = function() {
 	this.initialize(img.map01);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,8000,4500);
+
+
+(lib._73x = function() {
+	this.initialize(img._73x);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
+
+
+(lib._13x = function() {
+	this.initialize(img._13x);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 
 
 (lib._23x = function() {
@@ -177,26 +177,26 @@ p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 
 
-(lib._13x = function() {
-	this.initialize(img._13x);
+(lib._43x = function() {
+	this.initialize(img._43x);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
 
 
-(lib._53x = function() {
-	this.initialize(img._53x);
+(lib.Bitmap11 = function() {
+	this.initialize(img.Bitmap11);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);
+p.nominalBounds = new cjs.Rectangle(0,0,857,982);
 
 
-(lib.Bitmap12 = function() {
-	this.initialize(img.Bitmap12);
+(lib.Bitmap13 = function() {
+	this.initialize(img.Bitmap13);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,440,644);
 
 
-(lib._73x = function() {
-	this.initialize(img._73x);
+(lib._33x = function() {
+	this.initialize(img._33x);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1326,1950);// helper functions:
 
@@ -1444,17 +1444,17 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_33x.png", id:"_33x"},
-		{src:"images/Bitmap13.png", id:"Bitmap13"},
-		{src:"images/Bitmap11.png", id:"Bitmap11"},
-		{src:"images/_43x.png", id:"_43x"},
-		{src:"images/map01.png", id:"map01"},
-		{src:"images/_23x.png", id:"_23x"},
-		{src:"images/_63x.png", id:"_63x"},
-		{src:"images/_13x.png", id:"_13x"},
-		{src:"images/_53x.png", id:"_53x"},
-		{src:"images/Bitmap12.png", id:"Bitmap12"},
-		{src:"images/_73x.png", id:"_73x"}
+		{src:"images/_53x.png?1587438479804", id:"_53x"},
+		{src:"images/Bitmap12.png?1587438479804", id:"Bitmap12"},
+		{src:"images/map01.png?1587438479804", id:"map01"},
+		{src:"images/_73x.png?1587438479804", id:"_73x"},
+		{src:"images/_13x.png?1587438479804", id:"_13x"},
+		{src:"images/_23x.png?1587438479804", id:"_23x"},
+		{src:"images/_63x.png?1587438479804", id:"_63x"},
+		{src:"images/_43x.png?1587438479804", id:"_43x"},
+		{src:"images/Bitmap11.png?1587438479804", id:"Bitmap11"},
+		{src:"images/Bitmap13.png?1587438479804", id:"Bitmap13"},
+		{src:"images/_33x.png?1587438479804", id:"_33x"}
 	],
 	preloads: []
 };
