@@ -135,38 +135,14 @@ lib.ssMetadata = [];
 
 
 
-(lib.A13x = function() {
-	this.initialize(img.A13x);
+(lib.A33x = function() {
+	this.initialize(img.A33x);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1455,2133);
 
 
-(lib.Image_1 = function() {
-	this.initialize(img.Image_1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,113,193);
-
-
-(lib.Image_0 = function() {
-	this.initialize(img.Image_0);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,468,1046);
-
-
-(lib.A63x = function() {
-	this.initialize(img.A63x);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1455,2133);
-
-
-(lib.A73x = function() {
-	this.initialize(img.A73x);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1455,2133);
-
-
-(lib.a2 = function() {
-	this.initialize(img.a2);
+(lib.a5 = function() {
+	this.initialize(img.a5);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1501,2180);
 
@@ -177,34 +153,58 @@ p.nominalBounds = new cjs.Rectangle(0,0,1501,2180);
 p.nominalBounds = new cjs.Rectangle(0,0,4717,2949);
 
 
+(lib.a0 = function() {
+	this.initialize(img.a0);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1077,123);
+
+
 (lib.map01 = function() {
 	this.initialize(img.map01);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,8000,4500);
 
 
-(lib.a4 = function() {
-	this.initialize(img.a4);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1501,2180);
-
-
-(lib.a5 = function() {
-	this.initialize(img.a5);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1501,2180);
-
-
-(lib.A33x = function() {
-	this.initialize(img.A33x);
+(lib.A73x = function() {
+	this.initialize(img.A73x);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1455,2133);
 
 
-(lib.a0 = function() {
-	this.initialize(img.a0);
+(lib.Image_0 = function() {
+	this.initialize(img.Image_0);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1077,123);
+p.nominalBounds = new cjs.Rectangle(0,0,468,1046);
+
+
+(lib.Image_1 = function() {
+	this.initialize(img.Image_1);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,113,193);
+
+
+(lib.A63x = function() {
+	this.initialize(img.A63x);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1455,2133);
+
+
+(lib.A13x = function() {
+	this.initialize(img.A13x);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1455,2133);
+
+
+(lib.a2 = function() {
+	this.initialize(img.a2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1501,2180);
+
+
+(lib.a4 = function() {
+	this.initialize(img.a4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,1501,2180);
 
 
 (lib.Image_2 = function() {
@@ -1610,7 +1610,7 @@ p.nominalBounds = new cjs.Rectangle(-743.7,-495.4,1487.6,996.5);
 	mask.setTransform(90.725,59.075);
 
 	// Layer_3
-	this.instance = new lib.Image_2();
+	this.instance = new lib.Image();
 	this.instance.setTransform(0,0,0.0383,0.0383);
 
 	var maskedShapeInstanceList = [this.instance];
@@ -1856,7 +1856,7 @@ p.nominalBounds = new cjs.Rectangle(-743.7,-495.4,1487.6,996.5);
 	mask_2.setTransform(366.5,238.6);
 
 	// Layer_3
-	this.instance_1 = new lib.Image();
+	this.instance_1 = new lib.Image_2();
 	this.instance_1.setTransform(0,0,0.1546,0.1546);
 
 	var maskedShapeInstanceList = [this.instance_1];
@@ -5602,7 +5602,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_32.setTransform(-69.06,-35.345);
 
 	this.shape_33 = new cjs.Shape();
-	this.shape_33.graphics.f().s("#FD3A37").ss(0.5).p("ABNAJQAAAXgLAQQgMAQgVAFQgUAFgVgGQgQgDgOgIQgegRgGgkQgDgSAEgPQAIgcAbgJQAVgIAaAGQATAFAMAIQAdARAGAggAAmAGIgCgOQgFgWgTgIQgLgEgIAAQgVABgGAUQgEAMADARQAFAUAQAIQAOAIANgCQAPgDAGgOQADgGABgNg");
+	this.shape_33.graphics.f().s("#FD3A37").ss(0.5).p("AAmAGIgCgOQgFgWgTgIQgLgEgIAAQgVABgGAUQgEAMADARQAFAUAQAIQAOAIANgCQAPgDAGgOQADgGABgNgABNAJQAAAXgLAQQgMAQgVAFQgUAFgVgGQgQgDgOgIQgegRgGgkQgDgSAEgPQAIgcAbgJQAVgIAaAGQATAFAMAIQAdARAGAgg");
 	this.shape_33.setTransform(-69.851,-48.6944);
 
 	this.shape_34 = new cjs.Shape();
@@ -5713,14 +5713,14 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	}
 
 	// actions tween:
-	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1178));
+	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1231));
 
 	// Layer_28
 	this.instance = new lib.Tween12("synched",0);
 	this.instance.setTransform(1041.15,969.35);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(959).to({_off:false},0).to({startPosition:0},150).to({alpha:0},25).to({_off:true},1).wait(43));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(998).to({_off:false},0).to({startPosition:0},126).to({alpha:0},26).to({_off:true},1).wait(80));
 
 	// Layer_27
 	this.shape = new cjs.Shape();
@@ -6139,7 +6139,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_103.graphics.f("#000000").s().p("AhPDKQgngNgZgYIAVguQA5AuBBAAQAoAAAXgSQAVgSAAgkQABgjgXgSQgWgSgtAAIg1AAIAAgxIArAAQArAAAYgSQAWgSAAgkQABgfgUgSQgTgRgjAAQg7AAg5AvIgWguQAZgYAngOQAlgNAoAAQA8AAAjAdQAkAeAAAyQAAAjgSAcQgRAbggAMQAmAJATAbQAUAaAAAnQgBA3gmAgQgnAghDAAQgpAAgmgOg");
 	this.shape_103.setTransform(497.55,901.475);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},839).to({state:[]},120).to({state:[]},89).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_103},{t:this.shape_102},{t:this.shape_101},{t:this.shape_100},{t:this.shape_99},{t:this.shape_98},{t:this.shape_97},{t:this.shape_96},{t:this.shape_95},{t:this.shape_94},{t:this.shape_93},{t:this.shape_92},{t:this.shape_91},{t:this.shape_90},{t:this.shape_89},{t:this.shape_88},{t:this.shape_87},{t:this.shape_86},{t:this.shape_85},{t:this.shape_84},{t:this.shape_83},{t:this.shape_82},{t:this.shape_81},{t:this.shape_80},{t:this.shape_79},{t:this.shape_78},{t:this.shape_77},{t:this.shape_76},{t:this.shape_75},{t:this.shape_74},{t:this.shape_73},{t:this.shape_72},{t:this.shape_71},{t:this.shape_70},{t:this.shape_69},{t:this.shape_68},{t:this.shape_67},{t:this.shape_66},{t:this.shape_65},{t:this.shape_64},{t:this.shape_63},{t:this.shape_62},{t:this.shape_61},{t:this.shape_60},{t:this.shape_59},{t:this.shape_58},{t:this.shape_57},{t:this.shape_56},{t:this.shape_55},{t:this.shape_54},{t:this.shape_53},{t:this.shape_52},{t:this.shape_51},{t:this.shape_50},{t:this.shape_49},{t:this.shape_48},{t:this.shape_47},{t:this.shape_46},{t:this.shape_45},{t:this.shape_44},{t:this.shape_43},{t:this.shape_42},{t:this.shape_41},{t:this.shape_40},{t:this.shape_39},{t:this.shape_38},{t:this.shape_37},{t:this.shape_36},{t:this.shape_35},{t:this.shape_34},{t:this.shape_33},{t:this.shape_32},{t:this.shape_31},{t:this.shape_30},{t:this.shape_29},{t:this.shape_28},{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]},839).to({state:[]},159).to({state:[]},50).wait(183));
 
 	// Layer_26
 	this.shape_104 = new cjs.Shape();
@@ -6406,7 +6406,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_169.graphics.f("#000000").s().p("AB2DTIAAi9IjrAAIAAC9Ig9AAIAAmmIA9AAIAAC3IDrAAIAAi3IA+AAIAAGmg");
 	this.shape_169.setTransform(420.7,967.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_169},{t:this.shape_168},{t:this.shape_167},{t:this.shape_166},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161},{t:this.shape_160},{t:this.shape_159},{t:this.shape_158},{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153},{t:this.shape_152},{t:this.shape_151},{t:this.shape_150},{t:this.shape_149},{t:this.shape_148},{t:this.shape_147},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143},{t:this.shape_142},{t:this.shape_141},{t:this.shape_140},{t:this.shape_139},{t:this.shape_138},{t:this.shape_137},{t:this.shape_136},{t:this.shape_135},{t:this.shape_134},{t:this.shape_133},{t:this.shape_132},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128},{t:this.shape_127},{t:this.shape_126},{t:this.shape_125},{t:this.shape_124},{t:this.shape_123},{t:this.shape_122},{t:this.shape_121},{t:this.shape_120},{t:this.shape_119},{t:this.shape_118},{t:this.shape_117},{t:this.shape_116},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113},{t:this.shape_112},{t:this.shape_111},{t:this.shape_110},{t:this.shape_109},{t:this.shape_108},{t:this.shape_107},{t:this.shape_106},{t:this.shape_105},{t:this.shape_104}]},749).to({state:[]},90).to({state:[]},209).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_169},{t:this.shape_168},{t:this.shape_167},{t:this.shape_166},{t:this.shape_165},{t:this.shape_164},{t:this.shape_163},{t:this.shape_162},{t:this.shape_161},{t:this.shape_160},{t:this.shape_159},{t:this.shape_158},{t:this.shape_157},{t:this.shape_156},{t:this.shape_155},{t:this.shape_154},{t:this.shape_153},{t:this.shape_152},{t:this.shape_151},{t:this.shape_150},{t:this.shape_149},{t:this.shape_148},{t:this.shape_147},{t:this.shape_146},{t:this.shape_145},{t:this.shape_144},{t:this.shape_143},{t:this.shape_142},{t:this.shape_141},{t:this.shape_140},{t:this.shape_139},{t:this.shape_138},{t:this.shape_137},{t:this.shape_136},{t:this.shape_135},{t:this.shape_134},{t:this.shape_133},{t:this.shape_132},{t:this.shape_131},{t:this.shape_130},{t:this.shape_129},{t:this.shape_128},{t:this.shape_127},{t:this.shape_126},{t:this.shape_125},{t:this.shape_124},{t:this.shape_123},{t:this.shape_122},{t:this.shape_121},{t:this.shape_120},{t:this.shape_119},{t:this.shape_118},{t:this.shape_117},{t:this.shape_116},{t:this.shape_115},{t:this.shape_114},{t:this.shape_113},{t:this.shape_112},{t:this.shape_111},{t:this.shape_110},{t:this.shape_109},{t:this.shape_108},{t:this.shape_107},{t:this.shape_106},{t:this.shape_105},{t:this.shape_104}]},749).to({state:[]},90).to({state:[]},209).wait(183));
 
 	// Layer_25
 	this.shape_170 = new cjs.Shape();
@@ -6705,7 +6705,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_243.graphics.f("#000000").s().p("ABzDTIhzlGIhyFGIgzAAIiUmmIA+AAIByFPIB1lPIAsABIBzFPIBzlQIA8AAIiVGmg");
 	this.shape_243.setTransform(441.05,967.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_243},{t:this.shape_242},{t:this.shape_241},{t:this.shape_240},{t:this.shape_239},{t:this.shape_238},{t:this.shape_237},{t:this.shape_236},{t:this.shape_235},{t:this.shape_234},{t:this.shape_233},{t:this.shape_232},{t:this.shape_231},{t:this.shape_230},{t:this.shape_229},{t:this.shape_228},{t:this.shape_227},{t:this.shape_226},{t:this.shape_225},{t:this.shape_224},{t:this.shape_223},{t:this.shape_222},{t:this.shape_221},{t:this.shape_220},{t:this.shape_219},{t:this.shape_218},{t:this.shape_217},{t:this.shape_216},{t:this.shape_215},{t:this.shape_214},{t:this.shape_213},{t:this.shape_212},{t:this.shape_211},{t:this.shape_210},{t:this.shape_209},{t:this.shape_208},{t:this.shape_207},{t:this.shape_206},{t:this.shape_205},{t:this.shape_204},{t:this.shape_203},{t:this.shape_202},{t:this.shape_201},{t:this.shape_200},{t:this.shape_199},{t:this.shape_198},{t:this.shape_197},{t:this.shape_196},{t:this.shape_195},{t:this.shape_194},{t:this.shape_193},{t:this.shape_192},{t:this.shape_191},{t:this.shape_190},{t:this.shape_189},{t:this.shape_188},{t:this.shape_187},{t:this.shape_186},{t:this.shape_185},{t:this.shape_184},{t:this.shape_183},{t:this.shape_182},{t:this.shape_181},{t:this.shape_180},{t:this.shape_179},{t:this.shape_178},{t:this.shape_177},{t:this.shape_176},{t:this.shape_175},{t:this.shape_174},{t:this.shape_173},{t:this.shape_172},{t:this.shape_171},{t:this.shape_170}]},659).to({state:[]},90).to({state:[]},299).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_243},{t:this.shape_242},{t:this.shape_241},{t:this.shape_240},{t:this.shape_239},{t:this.shape_238},{t:this.shape_237},{t:this.shape_236},{t:this.shape_235},{t:this.shape_234},{t:this.shape_233},{t:this.shape_232},{t:this.shape_231},{t:this.shape_230},{t:this.shape_229},{t:this.shape_228},{t:this.shape_227},{t:this.shape_226},{t:this.shape_225},{t:this.shape_224},{t:this.shape_223},{t:this.shape_222},{t:this.shape_221},{t:this.shape_220},{t:this.shape_219},{t:this.shape_218},{t:this.shape_217},{t:this.shape_216},{t:this.shape_215},{t:this.shape_214},{t:this.shape_213},{t:this.shape_212},{t:this.shape_211},{t:this.shape_210},{t:this.shape_209},{t:this.shape_208},{t:this.shape_207},{t:this.shape_206},{t:this.shape_205},{t:this.shape_204},{t:this.shape_203},{t:this.shape_202},{t:this.shape_201},{t:this.shape_200},{t:this.shape_199},{t:this.shape_198},{t:this.shape_197},{t:this.shape_196},{t:this.shape_195},{t:this.shape_194},{t:this.shape_193},{t:this.shape_192},{t:this.shape_191},{t:this.shape_190},{t:this.shape_189},{t:this.shape_188},{t:this.shape_187},{t:this.shape_186},{t:this.shape_185},{t:this.shape_184},{t:this.shape_183},{t:this.shape_182},{t:this.shape_181},{t:this.shape_180},{t:this.shape_179},{t:this.shape_178},{t:this.shape_177},{t:this.shape_176},{t:this.shape_175},{t:this.shape_174},{t:this.shape_173},{t:this.shape_172},{t:this.shape_171},{t:this.shape_170}]},659).to({state:[]},90).to({state:[]},299).wait(183));
 
 	// Layer_24
 	this.shape_244 = new cjs.Shape();
@@ -6832,7 +6832,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_274.graphics.f("#000000").s().p("AB3DTIAAi9IjsAAIAAC9Ig9AAIAAmmIA9AAIAAC3IDsAAIAAi3IA8AAIAAGmg");
 	this.shape_274.setTransform(536.4,967.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_274},{t:this.shape_273},{t:this.shape_272},{t:this.shape_271},{t:this.shape_270},{t:this.shape_269},{t:this.shape_268},{t:this.shape_267},{t:this.shape_266},{t:this.shape_265},{t:this.shape_264},{t:this.shape_263},{t:this.shape_262},{t:this.shape_261},{t:this.shape_260},{t:this.shape_259},{t:this.shape_258},{t:this.shape_257},{t:this.shape_256},{t:this.shape_255},{t:this.shape_254},{t:this.shape_253},{t:this.shape_252},{t:this.shape_251},{t:this.shape_250},{t:this.shape_249},{t:this.shape_248},{t:this.shape_247},{t:this.shape_246},{t:this.shape_245},{t:this.shape_244}]},569).to({state:[]},90).to({state:[]},389).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_274},{t:this.shape_273},{t:this.shape_272},{t:this.shape_271},{t:this.shape_270},{t:this.shape_269},{t:this.shape_268},{t:this.shape_267},{t:this.shape_266},{t:this.shape_265},{t:this.shape_264},{t:this.shape_263},{t:this.shape_262},{t:this.shape_261},{t:this.shape_260},{t:this.shape_259},{t:this.shape_258},{t:this.shape_257},{t:this.shape_256},{t:this.shape_255},{t:this.shape_254},{t:this.shape_253},{t:this.shape_252},{t:this.shape_251},{t:this.shape_250},{t:this.shape_249},{t:this.shape_248},{t:this.shape_247},{t:this.shape_246},{t:this.shape_245},{t:this.shape_244}]},569).to({state:[]},90).to({state:[]},389).wait(183));
 
 	// Layer_7
 	this.shape_275 = new cjs.Shape();
@@ -7123,7 +7123,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_346.graphics.f("#000000").s().p("AidDTIAAmmICuAAQBDAAAlAiQAlAgAAA9QAAA8glAhQglAhhDAAIhwAAIAACpgAhfgGIBpAAQBZgBAAhNQAAhMhZAAIhpAAg");
 	this.shape_346.setTransform(458.45,967.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_346},{t:this.shape_345},{t:this.shape_344},{t:this.shape_343},{t:this.shape_342},{t:this.shape_341},{t:this.shape_340},{t:this.shape_339},{t:this.shape_338},{t:this.shape_337},{t:this.shape_336},{t:this.shape_335},{t:this.shape_334},{t:this.shape_333},{t:this.shape_332},{t:this.shape_331},{t:this.shape_330},{t:this.shape_329},{t:this.shape_328},{t:this.shape_327},{t:this.shape_326},{t:this.shape_325},{t:this.shape_324},{t:this.shape_323},{t:this.shape_322},{t:this.shape_321},{t:this.shape_320},{t:this.shape_319},{t:this.shape_318},{t:this.shape_317},{t:this.shape_316},{t:this.shape_315},{t:this.shape_314},{t:this.shape_313},{t:this.shape_312},{t:this.shape_311},{t:this.shape_310},{t:this.shape_309},{t:this.shape_308},{t:this.shape_307},{t:this.shape_306},{t:this.shape_305},{t:this.shape_304},{t:this.shape_303},{t:this.shape_302},{t:this.shape_301},{t:this.shape_300},{t:this.shape_299},{t:this.shape_298},{t:this.shape_297},{t:this.shape_296},{t:this.shape_295},{t:this.shape_294},{t:this.shape_293},{t:this.shape_292},{t:this.shape_291},{t:this.shape_290},{t:this.shape_289},{t:this.shape_288},{t:this.shape_287},{t:this.shape_286},{t:this.shape_285},{t:this.shape_284},{t:this.shape_283},{t:this.shape_282},{t:this.shape_281},{t:this.shape_280},{t:this.shape_279},{t:this.shape_278},{t:this.shape_277},{t:this.shape_276},{t:this.shape_275}]},479).to({state:[]},90).to({state:[]},479).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_346},{t:this.shape_345},{t:this.shape_344},{t:this.shape_343},{t:this.shape_342},{t:this.shape_341},{t:this.shape_340},{t:this.shape_339},{t:this.shape_338},{t:this.shape_337},{t:this.shape_336},{t:this.shape_335},{t:this.shape_334},{t:this.shape_333},{t:this.shape_332},{t:this.shape_331},{t:this.shape_330},{t:this.shape_329},{t:this.shape_328},{t:this.shape_327},{t:this.shape_326},{t:this.shape_325},{t:this.shape_324},{t:this.shape_323},{t:this.shape_322},{t:this.shape_321},{t:this.shape_320},{t:this.shape_319},{t:this.shape_318},{t:this.shape_317},{t:this.shape_316},{t:this.shape_315},{t:this.shape_314},{t:this.shape_313},{t:this.shape_312},{t:this.shape_311},{t:this.shape_310},{t:this.shape_309},{t:this.shape_308},{t:this.shape_307},{t:this.shape_306},{t:this.shape_305},{t:this.shape_304},{t:this.shape_303},{t:this.shape_302},{t:this.shape_301},{t:this.shape_300},{t:this.shape_299},{t:this.shape_298},{t:this.shape_297},{t:this.shape_296},{t:this.shape_295},{t:this.shape_294},{t:this.shape_293},{t:this.shape_292},{t:this.shape_291},{t:this.shape_290},{t:this.shape_289},{t:this.shape_288},{t:this.shape_287},{t:this.shape_286},{t:this.shape_285},{t:this.shape_284},{t:this.shape_283},{t:this.shape_282},{t:this.shape_281},{t:this.shape_280},{t:this.shape_279},{t:this.shape_278},{t:this.shape_277},{t:this.shape_276},{t:this.shape_275}]},479).to({state:[]},90).to({state:[]},479).wait(183));
 
 	// Layer_6
 	this.shape_347 = new cjs.Shape();
@@ -7274,7 +7274,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_383.graphics.f("#000000").s().p("ACYDTIgthoIjVAAIgtBoIg+AAIC8mmIAzAAIC8GmgABWA6IhVjHIhWDHICrAAg");
 	this.shape_383.setTransform(479.775,967.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_383},{t:this.shape_382},{t:this.shape_381},{t:this.shape_380},{t:this.shape_379},{t:this.shape_378},{t:this.shape_377},{t:this.shape_376},{t:this.shape_375},{t:this.shape_374},{t:this.shape_373},{t:this.shape_372},{t:this.shape_371},{t:this.shape_370},{t:this.shape_369},{t:this.shape_368},{t:this.shape_367},{t:this.shape_366},{t:this.shape_365},{t:this.shape_364},{t:this.shape_363},{t:this.shape_362},{t:this.shape_361},{t:this.shape_360},{t:this.shape_359},{t:this.shape_358},{t:this.shape_357},{t:this.shape_356},{t:this.shape_355},{t:this.shape_354},{t:this.shape_353},{t:this.shape_352},{t:this.shape_351},{t:this.shape_350},{t:this.shape_349},{t:this.shape_348},{t:this.shape_347}]},389).to({state:[]},90).to({state:[]},569).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_383},{t:this.shape_382},{t:this.shape_381},{t:this.shape_380},{t:this.shape_379},{t:this.shape_378},{t:this.shape_377},{t:this.shape_376},{t:this.shape_375},{t:this.shape_374},{t:this.shape_373},{t:this.shape_372},{t:this.shape_371},{t:this.shape_370},{t:this.shape_369},{t:this.shape_368},{t:this.shape_367},{t:this.shape_366},{t:this.shape_365},{t:this.shape_364},{t:this.shape_363},{t:this.shape_362},{t:this.shape_361},{t:this.shape_360},{t:this.shape_359},{t:this.shape_358},{t:this.shape_357},{t:this.shape_356},{t:this.shape_355},{t:this.shape_354},{t:this.shape_353},{t:this.shape_352},{t:this.shape_351},{t:this.shape_350},{t:this.shape_349},{t:this.shape_348},{t:this.shape_347}]},389).to({state:[]},90).to({state:[]},569).wait(183));
 
 	// Layer_5
 	this.shape_384 = new cjs.Shape();
@@ -7413,7 +7413,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_417.graphics.f("#000000").s().p("AB3DTIAAi9IjsAAIAAC9Ig+AAIAAmmIA+AAIAAC3IDsAAIAAi3IA8AAIAAGmg");
 	this.shape_417.setTransform(480.5,967.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_417},{t:this.shape_416},{t:this.shape_415},{t:this.shape_414},{t:this.shape_413},{t:this.shape_412},{t:this.shape_411},{t:this.shape_410},{t:this.shape_409},{t:this.shape_408},{t:this.shape_407},{t:this.shape_406},{t:this.shape_405},{t:this.shape_404},{t:this.shape_403},{t:this.shape_402},{t:this.shape_401},{t:this.shape_400},{t:this.shape_399},{t:this.shape_398},{t:this.shape_397},{t:this.shape_396},{t:this.shape_395},{t:this.shape_394},{t:this.shape_393},{t:this.shape_392},{t:this.shape_391},{t:this.shape_390},{t:this.shape_389},{t:this.shape_388},{t:this.shape_387},{t:this.shape_386},{t:this.shape_385},{t:this.shape_384}]},299).to({state:[]},90).to({state:[]},659).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_417},{t:this.shape_416},{t:this.shape_415},{t:this.shape_414},{t:this.shape_413},{t:this.shape_412},{t:this.shape_411},{t:this.shape_410},{t:this.shape_409},{t:this.shape_408},{t:this.shape_407},{t:this.shape_406},{t:this.shape_405},{t:this.shape_404},{t:this.shape_403},{t:this.shape_402},{t:this.shape_401},{t:this.shape_400},{t:this.shape_399},{t:this.shape_398},{t:this.shape_397},{t:this.shape_396},{t:this.shape_395},{t:this.shape_394},{t:this.shape_393},{t:this.shape_392},{t:this.shape_391},{t:this.shape_390},{t:this.shape_389},{t:this.shape_388},{t:this.shape_387},{t:this.shape_386},{t:this.shape_385},{t:this.shape_384}]},299).to({state:[]},90).to({state:[]},659).wait(183));
 
 	// Layer_4
 	this.shape_418 = new cjs.Shape();
@@ -7684,7 +7684,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_484.graphics.f("#000000").s().p("AidDTIAAmmICuAAQBDAAAlAiQAmAgAAA9QAAA8gmAhQglAhhDAAIhwAAIAACpgAhfgGIBpAAQBZgBAAhNQAAhMhZAAIhpAAg");
 	this.shape_484.setTransform(432.25,967.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_484},{t:this.shape_483},{t:this.shape_482},{t:this.shape_481},{t:this.shape_480},{t:this.shape_479},{t:this.shape_478},{t:this.shape_477},{t:this.shape_476},{t:this.shape_475},{t:this.shape_474},{t:this.shape_473},{t:this.shape_472},{t:this.shape_471},{t:this.shape_470},{t:this.shape_469},{t:this.shape_468},{t:this.shape_467},{t:this.shape_466},{t:this.shape_465},{t:this.shape_464},{t:this.shape_463},{t:this.shape_462},{t:this.shape_461},{t:this.shape_460},{t:this.shape_459},{t:this.shape_458},{t:this.shape_457},{t:this.shape_456},{t:this.shape_455},{t:this.shape_454},{t:this.shape_453},{t:this.shape_452},{t:this.shape_451},{t:this.shape_450},{t:this.shape_449},{t:this.shape_448},{t:this.shape_447},{t:this.shape_446},{t:this.shape_445},{t:this.shape_444},{t:this.shape_443},{t:this.shape_442},{t:this.shape_441},{t:this.shape_440},{t:this.shape_439},{t:this.shape_438},{t:this.shape_437},{t:this.shape_436},{t:this.shape_435},{t:this.shape_434},{t:this.shape_433},{t:this.shape_432},{t:this.shape_431},{t:this.shape_430},{t:this.shape_429},{t:this.shape_428},{t:this.shape_427},{t:this.shape_426},{t:this.shape_425},{t:this.shape_424},{t:this.shape_423},{t:this.shape_422},{t:this.shape_421},{t:this.shape_420},{t:this.shape_419},{t:this.shape_418}]},209).to({state:[]},90).to({state:[]},749).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_484},{t:this.shape_483},{t:this.shape_482},{t:this.shape_481},{t:this.shape_480},{t:this.shape_479},{t:this.shape_478},{t:this.shape_477},{t:this.shape_476},{t:this.shape_475},{t:this.shape_474},{t:this.shape_473},{t:this.shape_472},{t:this.shape_471},{t:this.shape_470},{t:this.shape_469},{t:this.shape_468},{t:this.shape_467},{t:this.shape_466},{t:this.shape_465},{t:this.shape_464},{t:this.shape_463},{t:this.shape_462},{t:this.shape_461},{t:this.shape_460},{t:this.shape_459},{t:this.shape_458},{t:this.shape_457},{t:this.shape_456},{t:this.shape_455},{t:this.shape_454},{t:this.shape_453},{t:this.shape_452},{t:this.shape_451},{t:this.shape_450},{t:this.shape_449},{t:this.shape_448},{t:this.shape_447},{t:this.shape_446},{t:this.shape_445},{t:this.shape_444},{t:this.shape_443},{t:this.shape_442},{t:this.shape_441},{t:this.shape_440},{t:this.shape_439},{t:this.shape_438},{t:this.shape_437},{t:this.shape_436},{t:this.shape_435},{t:this.shape_434},{t:this.shape_433},{t:this.shape_432},{t:this.shape_431},{t:this.shape_430},{t:this.shape_429},{t:this.shape_428},{t:this.shape_427},{t:this.shape_426},{t:this.shape_425},{t:this.shape_424},{t:this.shape_423},{t:this.shape_422},{t:this.shape_421},{t:this.shape_420},{t:this.shape_419},{t:this.shape_418}]},209).to({state:[]},90).to({state:[]},749).wait(183));
 
 	// Layer_3
 	this.shape_485 = new cjs.Shape();
@@ -7895,7 +7895,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_536.graphics.f("#FFFFFF").s().p("AgeDTIAAlyIiPAAIAAg0IFbAAIAAA0IiPAAIAAFyg");
 	this.shape_536.setTransform(572.9,967.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_536},{t:this.shape_535},{t:this.shape_534},{t:this.shape_533},{t:this.shape_532},{t:this.shape_531},{t:this.shape_530},{t:this.shape_529},{t:this.shape_528},{t:this.shape_527},{t:this.shape_526},{t:this.shape_525},{t:this.shape_524},{t:this.shape_523},{t:this.shape_522},{t:this.shape_521},{t:this.shape_520},{t:this.shape_519},{t:this.shape_518},{t:this.shape_517},{t:this.shape_516},{t:this.shape_515},{t:this.shape_514},{t:this.shape_513},{t:this.shape_512},{t:this.shape_511},{t:this.shape_510},{t:this.shape_509},{t:this.shape_508},{t:this.shape_507},{t:this.shape_506},{t:this.shape_505},{t:this.shape_504},{t:this.shape_503},{t:this.shape_502},{t:this.shape_501},{t:this.shape_500},{t:this.shape_499},{t:this.shape_498},{t:this.shape_497},{t:this.shape_496},{t:this.shape_495},{t:this.shape_494},{t:this.shape_493},{t:this.shape_492},{t:this.shape_491},{t:this.shape_490},{t:this.shape_489},{t:this.shape_488},{t:this.shape_487},{t:this.shape_486},{t:this.shape_485}]},119).to({state:[]},90).to({state:[]},839).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_536},{t:this.shape_535},{t:this.shape_534},{t:this.shape_533},{t:this.shape_532},{t:this.shape_531},{t:this.shape_530},{t:this.shape_529},{t:this.shape_528},{t:this.shape_527},{t:this.shape_526},{t:this.shape_525},{t:this.shape_524},{t:this.shape_523},{t:this.shape_522},{t:this.shape_521},{t:this.shape_520},{t:this.shape_519},{t:this.shape_518},{t:this.shape_517},{t:this.shape_516},{t:this.shape_515},{t:this.shape_514},{t:this.shape_513},{t:this.shape_512},{t:this.shape_511},{t:this.shape_510},{t:this.shape_509},{t:this.shape_508},{t:this.shape_507},{t:this.shape_506},{t:this.shape_505},{t:this.shape_504},{t:this.shape_503},{t:this.shape_502},{t:this.shape_501},{t:this.shape_500},{t:this.shape_499},{t:this.shape_498},{t:this.shape_497},{t:this.shape_496},{t:this.shape_495},{t:this.shape_494},{t:this.shape_493},{t:this.shape_492},{t:this.shape_491},{t:this.shape_490},{t:this.shape_489},{t:this.shape_488},{t:this.shape_487},{t:this.shape_486},{t:this.shape_485}]},119).to({state:[]},90).to({state:[]},839).wait(183));
 
 	// Layer_2
 	this.shape_537 = new cjs.Shape();
@@ -8206,7 +8206,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_613.graphics.f("#FFFFFF").s().p("AidDTIAAmmICuAAQBDAAAlAiQAmAgAAA9QAAA8gmAhQglAhhDAAIhxAAIAACpgAhggGIBqAAQBZgBAAhNQAAhMhZAAIhqAAg");
 	this.shape_613.setTransform(460.5,967.95);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_613},{t:this.shape_612},{t:this.shape_611},{t:this.shape_610},{t:this.shape_609},{t:this.shape_608},{t:this.shape_607},{t:this.shape_606},{t:this.shape_605},{t:this.shape_604},{t:this.shape_603},{t:this.shape_602},{t:this.shape_601},{t:this.shape_600},{t:this.shape_599},{t:this.shape_598},{t:this.shape_597},{t:this.shape_596},{t:this.shape_595},{t:this.shape_594},{t:this.shape_593},{t:this.shape_592},{t:this.shape_591},{t:this.shape_590},{t:this.shape_589},{t:this.shape_588},{t:this.shape_587},{t:this.shape_586},{t:this.shape_585},{t:this.shape_584},{t:this.shape_583},{t:this.shape_582},{t:this.shape_581},{t:this.shape_580},{t:this.shape_579},{t:this.shape_578},{t:this.shape_577},{t:this.shape_576},{t:this.shape_575},{t:this.shape_574},{t:this.shape_573},{t:this.shape_572},{t:this.shape_571},{t:this.shape_570},{t:this.shape_569},{t:this.shape_568},{t:this.shape_567},{t:this.shape_566},{t:this.shape_565},{t:this.shape_564},{t:this.shape_563},{t:this.shape_562},{t:this.shape_561},{t:this.shape_560},{t:this.shape_559},{t:this.shape_558},{t:this.shape_557},{t:this.shape_556},{t:this.shape_555},{t:this.shape_554},{t:this.shape_553},{t:this.shape_552},{t:this.shape_551},{t:this.shape_550},{t:this.shape_549},{t:this.shape_548},{t:this.shape_547},{t:this.shape_546},{t:this.shape_545},{t:this.shape_544},{t:this.shape_543},{t:this.shape_542},{t:this.shape_541},{t:this.shape_540},{t:this.shape_539},{t:this.shape_538},{t:this.shape_537}]},30).to({state:[]},89).to({state:[]},929).wait(130));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_613},{t:this.shape_612},{t:this.shape_611},{t:this.shape_610},{t:this.shape_609},{t:this.shape_608},{t:this.shape_607},{t:this.shape_606},{t:this.shape_605},{t:this.shape_604},{t:this.shape_603},{t:this.shape_602},{t:this.shape_601},{t:this.shape_600},{t:this.shape_599},{t:this.shape_598},{t:this.shape_597},{t:this.shape_596},{t:this.shape_595},{t:this.shape_594},{t:this.shape_593},{t:this.shape_592},{t:this.shape_591},{t:this.shape_590},{t:this.shape_589},{t:this.shape_588},{t:this.shape_587},{t:this.shape_586},{t:this.shape_585},{t:this.shape_584},{t:this.shape_583},{t:this.shape_582},{t:this.shape_581},{t:this.shape_580},{t:this.shape_579},{t:this.shape_578},{t:this.shape_577},{t:this.shape_576},{t:this.shape_575},{t:this.shape_574},{t:this.shape_573},{t:this.shape_572},{t:this.shape_571},{t:this.shape_570},{t:this.shape_569},{t:this.shape_568},{t:this.shape_567},{t:this.shape_566},{t:this.shape_565},{t:this.shape_564},{t:this.shape_563},{t:this.shape_562},{t:this.shape_561},{t:this.shape_560},{t:this.shape_559},{t:this.shape_558},{t:this.shape_557},{t:this.shape_556},{t:this.shape_555},{t:this.shape_554},{t:this.shape_553},{t:this.shape_552},{t:this.shape_551},{t:this.shape_550},{t:this.shape_549},{t:this.shape_548},{t:this.shape_547},{t:this.shape_546},{t:this.shape_545},{t:this.shape_544},{t:this.shape_543},{t:this.shape_542},{t:this.shape_541},{t:this.shape_540},{t:this.shape_539},{t:this.shape_538},{t:this.shape_537}]},30).to({state:[]},89).to({state:[]},929).wait(183));
 
 	// Layer_70
 	this.shape_614 = new cjs.Shape();
@@ -8229,7 +8229,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_618.graphics.f("#999999").s().p("AggBPQgSgLgKgUQgKgUAAgcQAAgbAKgUQAKgUASgMQATgKAYAAQASAAAPAGQAQAFALALIgIAPQgNgKgMgFQgMgEgPgBQgcABgQASQgQATAAAiQAAAjAQASQAQAUAcgBQAPAAAMgEQAMgGANgKIAIAQQgLAKgQAHQgPAFgSAAQgYAAgTgLg");
 	this.shape_618.setTransform(1675.425,146.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_618},{t:this.shape_617},{t:this.shape_616},{t:this.shape_615},{t:this.shape_614}]},1140).wait(38));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_618},{t:this.shape_617},{t:this.shape_616},{t:this.shape_615},{t:this.shape_614}]},1189).wait(42));
 
 	// Layer_4
 	this.instance_1 = new lib.Tween34();
@@ -8237,7 +8237,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1140).to({_off:false},0).to({alpha:1,mode:"synched",startPosition:0},16).wait(22));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1189).to({_off:false},0).to({alpha:1,mode:"synched",startPosition:0},16).wait(26));
 
 	// Layer_2
 	this.instance_2 = new lib.LMod();
@@ -8249,8 +8249,8 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.LMod.name = "LMod";
 	this.LMod.setTransform(1499.25,705.2,1,1,0,0,0,3.5,0);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2}]},1140).to({state:[{t:this.LMod}]},16).wait(22));
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1140).to({_off:false},0).to({_off:true,alpha:1},16).wait(22));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_2}]},1189).to({state:[{t:this.LMod}]},16).wait(26));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(1189).to({_off:false},0).to({_off:true,alpha:1},16).wait(26));
 
 	// Layer_3
 	this.instance_3 = new lib.LMonboarding();
@@ -8262,8 +8262,8 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.LMonboarding.name = "LMonboarding";
 	this.LMonboarding.setTransform(1047.25,705.8,1,1,0,0,0,0,0.6);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_3}]},1140).to({state:[{t:this.LMonboarding}]},16).wait(22));
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1140).to({_off:false},0).to({_off:true,alpha:1},16).wait(22));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_3}]},1189).to({state:[{t:this.LMonboarding}]},16).wait(26));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(1189).to({_off:false},0).to({_off:true,alpha:1},16).wait(26));
 
 	// Layer_1
 	this.instance_4 = new lib.LMdevicemanagement();
@@ -8275,50 +8275,50 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.LMdevicemanagement.name = "LMdevicemanagement";
 	this.LMdevicemanagement.setTransform(598.75,705.2);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},1140).to({state:[{t:this.LMdevicemanagement}]},16).wait(22));
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1140).to({_off:false},0).to({_off:true,alpha:1},16).wait(22));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},1189).to({state:[{t:this.LMdevicemanagement}]},16).wait(26));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(1189).to({_off:false},0).to({_off:true,alpha:1},16).wait(26));
 
 	// Layer_35
 	this.instance_5 = new lib.Symbol15();
 	this.instance_5.setTransform(1080.9,539.5);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(749).to({_off:false},0).wait(90).to({alpha:0},7).to({_off:true},103).wait(229));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(749).to({_off:false},0).wait(86).to({alpha:0},6).to({_off:true},4).wait(386));
 
 	// Layer_34
 	this.instance_6 = new lib.A63x();
 	this.instance_6.setTransform(820,157,0.3586,0.3586);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(659).to({_off:false},0).to({_off:true},90).wait(429));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(659).to({_off:false},0).to({_off:true},90).wait(482));
 
 	// Layer_33
 	this.instance_7 = new lib.a5();
 	this.instance_7.setTransform(820,157,0.3509,0.3509);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(569).to({_off:false},0).to({_off:true},90).wait(519));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(569).to({_off:false},0).to({_off:true},90).wait(572));
 
 	// Layer_32
 	this.instance_8 = new lib.a4();
 	this.instance_8.setTransform(820,157,0.3509,0.3509);
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(479).to({_off:false},0).to({_off:true},90).wait(609));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(479).to({_off:false},0).to({_off:true},90).wait(662));
 
 	// Layer_31
 	this.instance_9 = new lib.A33x();
 	this.instance_9.setTransform(820,157,0.3586,0.3586);
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(389).to({_off:false},0).to({_off:true},90).wait(699));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(389).to({_off:false},0).to({_off:true},90).wait(752));
 
 	// Layer_30
 	this.instance_10 = new lib.a2();
 	this.instance_10.setTransform(820,157,0.3509,0.3509);
 	this.instance_10._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(299).to({_off:false},0).to({_off:true},90).wait(789));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).wait(299).to({_off:false},0).to({_off:true},90).wait(842));
 
 	// Layer_29
 	this.instance_11 = new lib.Symbol14();
@@ -8326,21 +8326,21 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.instance_11.alpha = 0;
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(208).to({_off:false},0).to({alpha:1},15).to({_off:true},76).wait(879));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(208).to({_off:false},0).to({alpha:1},15).to({_off:true},76).wait(932));
 
 	// peter2fade_copy
 	this.instance_12 = new lib.Tween55("synched",0);
 	this.instance_12.setTransform(1042.8,607.8,1,0.9935);
 	this.instance_12._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(839).to({_off:false},0).to({regX:0.1,regY:0.1,scaleY:0.9936,x:1042.9,y:607.9,alpha:0},10).to({_off:true},1).wait(328));
+	this.timeline.addTween(cjs.Tween.get(this.instance_12).wait(840).to({_off:false},0).to({regX:0.1,regY:0.1,scaleY:0.9936,x:1042.9,y:607.9,alpha:0},17).to({_off:true},1).wait(373));
 
 	// peter2
 	this.instance_13 = new lib.peter2();
 	this.instance_13.setTransform(299.05,108.95);
 	this.instance_13._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(842).to({_off:false},0).wait(117).to({alpha:0},16).to({_off:true},185).wait(18));
+	this.timeline.addTween(cjs.Tween.get(this.instance_13).wait(842).to({_off:false},0).wait(153).to({alpha:0},16).wait(220));
 
 	// peter2fade
 	this.instance_14 = new lib.Tween55("synched",0);
@@ -8348,7 +8348,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.instance_14.alpha = 0;
 	this.instance_14._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(839).to({_off:false},0).to({regX:0.1,regY:0.1,scaleY:0.9936,x:1042.9,y:607.9,alpha:1},10).to({_off:true},1).wait(328));
+	this.timeline.addTween(cjs.Tween.get(this.instance_14).wait(834).to({_off:false},0).to({regX:0.1,regY:0.1,scaleY:0.9936,x:1042.9,y:607.9,alpha:1},23).to({_off:true},1).wait(373));
 
 	// peter3fade
 	this.instance_15 = new lib.Tween54("synched",0);
@@ -8356,21 +8356,21 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.instance_15.alpha = 0;
 	this.instance_15._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(1112).to({_off:false},0).to({alpha:1},20).wait(46));
+	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(1148).to({_off:false},0).to({alpha:1},20).wait(63));
 
 	// peter3
 	this.instance_16 = new lib.peter3();
 	this.instance_16.setTransform(817.5,985.7,1,1,0,0,0,1571.5,893.1);
 	this.instance_16._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(962).to({_off:false},0).wait(216));
+	this.timeline.addTween(cjs.Tween.get(this.instance_16).wait(998).to({_off:false},0).wait(233));
 
 	// mask_idn (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
 	var mask_graphics_0 = new cjs.Graphics().p("EhcxBXDMAAAieXMDoaAAAMAAACeXg");
 
-	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:893.7,y:557.0992}).wait(849).to({graphics:null,x:0,y:0}).wait(329));
+	this.timeline.addTween(cjs.Tween.get(mask).to({graphics:mask_graphics_0,x:893.7,y:557.0992}).wait(849).to({graphics:null,x:0,y:0}).wait(382));
 
 	// hand
 	this.instance_17 = new lib.Tween6("synched",0);
@@ -8384,7 +8384,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 		maskedShapeInstanceList[shapedInstanceItr].mask = mask;
 	}
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(207).to({_off:false},0).to({alpha:1},16).to({_off:true},626).wait(329));
+	this.timeline.addTween(cjs.Tween.get(this.instance_17).wait(207).to({_off:false},0).to({alpha:1},16).to({_off:true},626).wait(382));
 
 	// whiteframe
 	this.instance_18 = new lib.Tween5("synched",0);
@@ -8392,7 +8392,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.instance_18.alpha = 0;
 	this.instance_18._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(207).to({_off:false},0).to({alpha:1},16).to({startPosition:0},616).wait(339));
+	this.timeline.addTween(cjs.Tween.get(this.instance_18).wait(207).to({_off:false},0).to({alpha:1},16).to({startPosition:0},616).wait(392));
 
 	// frame
 	this.instance_19 = new lib.Tween7("synched",0);
@@ -8400,7 +8400,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.instance_19.alpha = 0;
 	this.instance_19._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(207).to({_off:false},0).to({alpha:1},13).wait(958));
+	this.timeline.addTween(cjs.Tween.get(this.instance_19).wait(207).to({_off:false},0).to({alpha:1},13).wait(1011));
 
 	// notification
 	this.instance_20 = new lib.notification1();
@@ -8408,14 +8408,14 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.instance_20.alpha = 0;
 	this.instance_20._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(119).to({_off:false},0).to({y:264.8,alpha:1},10).to({_off:true},80).wait(969));
+	this.timeline.addTween(cjs.Tween.get(this.instance_20).wait(119).to({_off:false},0).to({y:264.8,alpha:1},10).to({_off:true},80).wait(1022));
 
 	// window
 	this.instance_21 = new lib.Path_9();
 	this.instance_21.setTransform(1060.2,581.4,1,1,0,0,0,499.1,539.6);
 	this.instance_21.alpha = 0.5;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_21).to({alpha:0},29).wait(1149));
+	this.timeline.addTween(cjs.Tween.get(this.instance_21).to({alpha:0},29).wait(1202));
 
 	// windowframe
 	this.instance_22 = new lib.Path_7();
@@ -8438,7 +8438,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_622.graphics.f("#C6B1B5").s().p("EgD6g0nIH1DvMAAABfUIn1GMg");
 	this.shape_622.setTransform(536,354.7);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_622},{t:this.shape_621},{t:this.shape_620},{t:this.shape_619},{t:this.instance_22}]}).wait(1178));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_622},{t:this.shape_621},{t:this.shape_620},{t:this.shape_619},{t:this.instance_22}]}).wait(1231));
 
 	// computer
 	this.shape_623 = new cjs.Shape();
@@ -8463,7 +8463,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_626.graphics.f("#8D8588").s().p("AtgA7QgSgLAAgWQAAgVAKgRQALgSASgKIN6nmINEH1IvGIog");
 	this.shape_626.setTransform(992.575,664.275);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_626},{t:this.shape_625},{t:this.instance_24},{t:this.instance_23},{t:this.shape_624},{t:this.shape_623}]},299).wait(879));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_626},{t:this.shape_625},{t:this.instance_24},{t:this.instance_23},{t:this.shape_624},{t:this.shape_623}]},299).wait(932));
 
 	// head
 	this.shape_627 = new cjs.Shape();
@@ -8474,26 +8474,26 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_628.graphics.f("#FB8E71").s().p("AhdFgQhGgfgzg+Qg0hAgRhQQgDgHgFgwQgDghgTgQIgighQgVgWACgPQADgXAwglQA1grAHgOQAdg5A2gsQAzgqBBgXQCHglBsAFQCgAHAUBrQgMA0gKBgQgMBwgHAoQgeCzheBWQhEA6hRALQgRACgSAAQg4AAg3gYg");
 	this.shape_628.setTransform(953.0161,391.7896);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_628},{t:this.shape_627}]}).wait(1178));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_628},{t:this.shape_627}]}).wait(1231));
 
 	// neck
 	this.shape_629 = new cjs.Shape();
 	this.shape_629.graphics.f("#FB8E71").s().p("AhVD6QgogOgZgaIAAnaIEtAAIAAHcQgaAZgmAOQgoAOguAAQgtAAgpgPg");
 	this.shape_629.setTransform(933.375,416.375);
 
-	this.timeline.addTween(cjs.Tween.get(this.shape_629).wait(1178));
+	this.timeline.addTween(cjs.Tween.get(this.shape_629).wait(1231));
 
 	// RUarm
 	this.instance_25 = new lib.Symbol2();
 	this.instance_25.setTransform(887.25,459.8,1,1,0,0,0,63.6,11.5);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_25).wait(1).to({regX:36.4,regY:63.5,x:860.05,y:511.8},0).wait(138).to({rotation:-2.3429,x:862.15,y:512.85},0).wait(1).to({rotation:-4.6857,x:864.4,y:513.85},0).wait(1).to({rotation:-7.0286,x:866.6,y:514.7},0).wait(1).to({rotation:-9.3715,x:868.85,y:515.5},0).wait(1).to({rotation:-11.7143,x:871.15,y:516.2},0).wait(1).to({rotation:-14.0572,x:873.45,y:516.8},0).wait(1).to({rotation:-16.4001,x:875.8,y:517.3},0).wait(1).to({rotation:-18.7429,x:878.15,y:517.75},0).wait(1).to({rotation:-21.0858,x:880.55,y:518.05},0).wait(1).to({rotation:-23.4287,x:882.95,y:518.3},0).wait(1).to({rotation:-25.7716,x:885.35,y:518.4},0).wait(1).to({rotation:-28.1144,x:887.7,y:518.45},0).wait(1).to({rotation:-30.4573,x:890.15,y:518.4},0).wait(1).to({rotation:-32.8002,x:892.55,y:518.25},0).wait(1).to({rotation:-35.143,x:894.9,y:517.9},0).wait(1).to({rotation:-37.4859,x:897.3,y:517.55},0).wait(1024));
+	this.timeline.addTween(cjs.Tween.get(this.instance_25).wait(1).to({regX:36.4,regY:63.5,x:860.05,y:511.8},0).wait(138).to({rotation:-2.3429,x:862.15,y:512.85},0).wait(1).to({rotation:-4.6857,x:864.4,y:513.85},0).wait(1).to({rotation:-7.0286,x:866.6,y:514.7},0).wait(1).to({rotation:-9.3715,x:868.85,y:515.5},0).wait(1).to({rotation:-11.7143,x:871.15,y:516.2},0).wait(1).to({rotation:-14.0572,x:873.45,y:516.8},0).wait(1).to({rotation:-16.4001,x:875.8,y:517.3},0).wait(1).to({rotation:-18.7429,x:878.15,y:517.75},0).wait(1).to({rotation:-21.0858,x:880.55,y:518.05},0).wait(1).to({rotation:-23.4287,x:882.95,y:518.3},0).wait(1).to({rotation:-25.7716,x:885.35,y:518.4},0).wait(1).to({rotation:-28.1144,x:887.7,y:518.45},0).wait(1).to({rotation:-30.4573,x:890.15,y:518.4},0).wait(1).to({rotation:-32.8002,x:892.55,y:518.25},0).wait(1).to({rotation:-35.143,x:894.9,y:517.9},0).wait(1).to({rotation:-37.4859,x:897.3,y:517.55},0).wait(1077));
 
 	// RLarm
 	this.instance_26 = new lib.Symbol1();
 	this.instance_26.setTransform(843.85,559.9,1,1,0,0,0,15.8,10.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_26).wait(1).to({regX:38.5,regY:82.9,x:866.55,y:632.2},0).wait(138).to({rotation:-6.3508,x:878.4,y:629.6},0).wait(1).to({rotation:-12.7016,x:890.05,y:626.1},0).wait(1).to({rotation:-19.0524,x:901.1,y:621.9},0).wait(1).to({rotation:-25.4032,x:911.65,y:616.9},0).wait(1).to({rotation:-31.7541,x:921.6,y:611.2},0).wait(1).to({rotation:-38.1049,x:930.75,y:604.9},0).wait(1).to({rotation:-44.4557,x:939.2,y:598.05},0).wait(1).to({rotation:-50.8065,x:946.85,y:590.8},0).wait(1).to({rotation:-57.1573,x:953.6,y:583.2},0).wait(1).to({rotation:-63.5081,x:959.4,y:575.4},0).wait(1).to({rotation:-69.8589,x:964.35,y:567.35},0).wait(1).to({rotation:-76.2097,x:968.4,y:559.3},0).wait(1).to({rotation:-82.5606,x:971.45,y:551.3},0).wait(1).to({rotation:-88.9114,x:973.65,y:543.45},0).wait(1).to({rotation:-95.2622,x:974.85,y:535.9},0).wait(1).to({rotation:-101.613,x:975.3,y:528.7},0).wait(1024));
+	this.timeline.addTween(cjs.Tween.get(this.instance_26).wait(1).to({regX:38.5,regY:82.9,x:866.55,y:632.2},0).wait(138).to({rotation:-6.3508,x:878.4,y:629.6},0).wait(1).to({rotation:-12.7016,x:890.05,y:626.1},0).wait(1).to({rotation:-19.0524,x:901.1,y:621.9},0).wait(1).to({rotation:-25.4032,x:911.65,y:616.9},0).wait(1).to({rotation:-31.7541,x:921.6,y:611.2},0).wait(1).to({rotation:-38.1049,x:930.75,y:604.9},0).wait(1).to({rotation:-44.4557,x:939.2,y:598.05},0).wait(1).to({rotation:-50.8065,x:946.85,y:590.8},0).wait(1).to({rotation:-57.1573,x:953.6,y:583.2},0).wait(1).to({rotation:-63.5081,x:959.4,y:575.4},0).wait(1).to({rotation:-69.8589,x:964.35,y:567.35},0).wait(1).to({rotation:-76.2097,x:968.4,y:559.3},0).wait(1).to({rotation:-82.5606,x:971.45,y:551.3},0).wait(1).to({rotation:-88.9114,x:973.65,y:543.45},0).wait(1).to({rotation:-95.2622,x:974.85,y:535.9},0).wait(1).to({rotation:-101.613,x:975.3,y:528.7},0).wait(1077));
 
 	// body
 	this.shape_630 = new cjs.Shape();
@@ -8508,25 +8508,25 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_632.graphics.f("#EBEEF3").s().p("AoeQlQhHh2gmj0QgljoADkWQAEkaArjvQAwkDBTiOQBWibDZhxQDShvDZgMQDqgNB7BxQCJB+goD/Qh9EcAIEaQAEBsAXB8QAKAvAkCYQAaBuAFA7QAIBUgUA9QgwCMjtBdQj1CGjJA3QiEAlhoAAQiKAAhZhCgAKlqDIAHgRIgLAkIAEgTgAKlqDIAAAAg");
 	this.shape_632.setTransform(913.0698,528.7733);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_632},{t:this.shape_631},{t:this.shape_630}]}).wait(1178));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_632},{t:this.shape_631},{t:this.shape_630}]}).wait(1231));
 
 	// glass
 	this.instance_27 = new lib.Symbol5();
 	this.instance_27.setTransform(1114.6,544.4,1,1,0,0,0,13.5,23.9);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_27).wait(1).to({regY:24,y:544.5},0).wait(28).to({y:536.25},0).wait(1).to({x:1114.65,y:528},0).wait(1).to({x:1114.7,y:519.75},0).wait(1).to({x:1114.75,y:511.55},0).wait(1).to({x:1114.8,y:503.3},0).wait(1).to({x:1114.85,y:495.05},0).wait(1).to({x:1114.9,y:486.8},0).wait(1).to({x:1114.95,y:478.6},0).wait(1).to({x:1115,y:470.35},0).wait(1).to({x:1115.05,y:462.1},0).wait(1).to({x:1115.1,y:453.9},0).wait(16).to({rotation:7.4995,x:1115.05,y:453.85},0).wait(1).to({rotation:14.9989,x:1115.1,y:453.9},0).wait(1).to({rotation:4.9991,x:1115.05},0).wait(1).to({rotation:-5.0007,x:1115.1,y:453.85},0).wait(1).to({rotation:-15.0005,y:453.9},0).wait(1).to({rotation:-5.0007,y:453.85},0).wait(1).to({rotation:4.9991,x:1115.05,y:453.9},0).wait(1).to({rotation:14.9989,x:1115.1},0).wait(1).to({rotation:4.9991,x:1115.05},0).wait(1).to({rotation:-5.0007,x:1115.1,y:453.85},0).wait(1).to({rotation:-15.0005,y:453.9},0).wait(1).to({rotation:-5.0007,y:453.85},0).wait(1).to({rotation:4.9991,x:1115.05,y:453.9},0).wait(1).to({rotation:14.9989,x:1115.1},0).wait(1).to({rotation:4.9991,x:1115.05},0).wait(1).to({rotation:-5.0007,x:1115.1,y:453.85},0).wait(1).to({rotation:-15.0005,y:453.9},0).wait(1).to({rotation:-5.0007,y:453.85},0).wait(1).to({rotation:4.9991,x:1115.05,y:453.9},0).wait(1).to({rotation:14.9989,x:1115.1},0).wait(1).to({rotation:7.4995,x:1115.05,y:453.85},0).wait(1).to({rotation:0,x:1115.1,y:453.9},0).wait(25).to({x:1115.05,y:460.85},0).wait(1).to({x:1115,y:467.8},0).wait(1).to({x:1114.95,y:474.8},0).wait(1).to({x:1114.9,y:481.75},0).wait(1).to({y:488.7},0).wait(1).to({x:1114.85,y:495.7},0).wait(1).to({x:1114.8,y:502.65},0).wait(1).to({x:1114.75,y:509.65},0).wait(1).to({y:516.6},0).wait(1).to({x:1114.7,y:523.55},0).wait(1).to({x:1114.65,y:530.55},0).wait(1).to({x:1114.6,y:537.5},0).wait(1).to({y:544.5},0).wait(1065));
+	this.timeline.addTween(cjs.Tween.get(this.instance_27).wait(1).to({regY:24,y:544.5},0).wait(28).to({y:536.25},0).wait(1).to({x:1114.65,y:528},0).wait(1).to({x:1114.7,y:519.75},0).wait(1).to({x:1114.75,y:511.55},0).wait(1).to({x:1114.8,y:503.3},0).wait(1).to({x:1114.85,y:495.05},0).wait(1).to({x:1114.9,y:486.8},0).wait(1).to({x:1114.95,y:478.6},0).wait(1).to({x:1115,y:470.35},0).wait(1).to({x:1115.05,y:462.1},0).wait(1).to({x:1115.1,y:453.9},0).wait(16).to({rotation:7.4995,x:1115.05,y:453.85},0).wait(1).to({rotation:14.9989,x:1115.1,y:453.9},0).wait(1).to({rotation:4.9991,x:1115.05},0).wait(1).to({rotation:-5.0007,x:1115.1,y:453.85},0).wait(1).to({rotation:-15.0005,y:453.9},0).wait(1).to({rotation:-5.0007,y:453.85},0).wait(1).to({rotation:4.9991,x:1115.05,y:453.9},0).wait(1).to({rotation:14.9989,x:1115.1},0).wait(1).to({rotation:4.9991,x:1115.05},0).wait(1).to({rotation:-5.0007,x:1115.1,y:453.85},0).wait(1).to({rotation:-15.0005,y:453.9},0).wait(1).to({rotation:-5.0007,y:453.85},0).wait(1).to({rotation:4.9991,x:1115.05,y:453.9},0).wait(1).to({rotation:14.9989,x:1115.1},0).wait(1).to({rotation:4.9991,x:1115.05},0).wait(1).to({rotation:-5.0007,x:1115.1,y:453.85},0).wait(1).to({rotation:-15.0005,y:453.9},0).wait(1).to({rotation:-5.0007,y:453.85},0).wait(1).to({rotation:4.9991,x:1115.05,y:453.9},0).wait(1).to({rotation:14.9989,x:1115.1},0).wait(1).to({rotation:7.4995,x:1115.05,y:453.85},0).wait(1).to({rotation:0,x:1115.1,y:453.9},0).wait(25).to({x:1115.05,y:460.85},0).wait(1).to({x:1115,y:467.8},0).wait(1).to({x:1114.95,y:474.8},0).wait(1).to({x:1114.9,y:481.75},0).wait(1).to({y:488.7},0).wait(1).to({x:1114.85,y:495.7},0).wait(1).to({x:1114.8,y:502.65},0).wait(1).to({x:1114.75,y:509.65},0).wait(1).to({y:516.6},0).wait(1).to({x:1114.7,y:523.55},0).wait(1).to({x:1114.65,y:530.55},0).wait(1).to({x:1114.6,y:537.5},0).wait(1).to({y:544.5},0).wait(1118));
 
 	// LUarm
 	this.instance_28 = new lib.Symbol4();
 	this.instance_28.setTransform(965.1,443.35,1,1,0,0,0,19.4,5.8);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_28).wait(1).to({regX:40.9,regY:57.8,x:986.6,y:495.35},0).wait(28).to({rotation:-1.3635,x:987.8,y:494.85},0).wait(1).to({rotation:-2.7271,x:989,y:494.25},0).wait(1).to({rotation:-4.0906,x:990.2,y:493.65},0).wait(1).to({rotation:-5.4541,x:991.4,y:493.05},0).wait(1).to({rotation:-6.8177,x:992.6,y:492.4},0).wait(1).to({rotation:-8.1812,x:993.8,y:491.75},0).wait(1).to({rotation:-9.5448,x:994.95,y:491},0).wait(1).to({rotation:-10.9083,x:996.05,y:490.3},0).wait(1).to({rotation:-12.2718,x:997.15,y:489.6},0).wait(1).to({rotation:-13.6354,x:998.25,y:488.75},0).wait(1).to({rotation:-14.9989,x:999.3,y:488},0).wait(62).to({rotation:-13.8451,x:998.4,y:488.65},0).wait(1).to({rotation:-12.6914,x:997.5,y:489.35},0).wait(1).to({rotation:-11.5376,x:996.5,y:489.95},0).wait(1).to({rotation:-10.3839,x:995.6,y:490.6},0).wait(1).to({rotation:-9.2301,x:994.6,y:491.2},0).wait(1).to({rotation:-8.0763,x:993.65,y:491.8},0).wait(1).to({rotation:-6.9226,x:992.65,y:492.35},0).wait(1).to({rotation:-5.7688,x:991.7,y:492.9},0).wait(1).to({rotation:-4.615,x:990.7,y:493.4},0).wait(1).to({rotation:-3.4613,x:989.7,y:493.95},0).wait(1).to({rotation:-2.3075,x:988.65,y:494.4},0).wait(1).to({rotation:-1.1538,x:987.6,y:494.9},0).wait(1).to({rotation:0,x:986.6,y:495.35},0).wait(1065));
+	this.timeline.addTween(cjs.Tween.get(this.instance_28).wait(1).to({regX:40.9,regY:57.8,x:986.6,y:495.35},0).wait(28).to({rotation:-1.3635,x:987.8,y:494.85},0).wait(1).to({rotation:-2.7271,x:989,y:494.25},0).wait(1).to({rotation:-4.0906,x:990.2,y:493.65},0).wait(1).to({rotation:-5.4541,x:991.4,y:493.05},0).wait(1).to({rotation:-6.8177,x:992.6,y:492.4},0).wait(1).to({rotation:-8.1812,x:993.8,y:491.75},0).wait(1).to({rotation:-9.5448,x:994.95,y:491},0).wait(1).to({rotation:-10.9083,x:996.05,y:490.3},0).wait(1).to({rotation:-12.2718,x:997.15,y:489.6},0).wait(1).to({rotation:-13.6354,x:998.25,y:488.75},0).wait(1).to({rotation:-14.9989,x:999.3,y:488},0).wait(62).to({rotation:-13.8451,x:998.4,y:488.65},0).wait(1).to({rotation:-12.6914,x:997.5,y:489.35},0).wait(1).to({rotation:-11.5376,x:996.5,y:489.95},0).wait(1).to({rotation:-10.3839,x:995.6,y:490.6},0).wait(1).to({rotation:-9.2301,x:994.6,y:491.2},0).wait(1).to({rotation:-8.0763,x:993.65,y:491.8},0).wait(1).to({rotation:-6.9226,x:992.65,y:492.35},0).wait(1).to({rotation:-5.7688,x:991.7,y:492.9},0).wait(1).to({rotation:-4.615,x:990.7,y:493.4},0).wait(1).to({rotation:-3.4613,x:989.7,y:493.95},0).wait(1).to({rotation:-2.3075,x:988.65,y:494.4},0).wait(1).to({rotation:-1.1538,x:987.6,y:494.9},0).wait(1).to({rotation:0,x:986.6,y:495.35},0).wait(1118));
 
 	// LLarm
 	this.instance_29 = new lib.Symbol3();
 	this.instance_29.setTransform(1002.1,540.2,1,1,0,0,0,10,21.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_29).wait(1).to({regX:67.7,x:1059.8},0).wait(28).to({rotation:-4.0907,x:1062.25,y:535.45},0).wait(1).to({rotation:-8.1813,x:1064.35,y:530.75},0).wait(1).to({rotation:-12.272,x:1066.25,y:526.05},0).wait(1).to({rotation:-16.3627,x:1067.8,y:521.55},0).wait(1).to({rotation:-20.4534,x:1069.15,y:517},0).wait(1).to({rotation:-24.544,x:1070.2,y:512.6},0).wait(1).to({rotation:-28.6347,x:1070.9,y:508.3},0).wait(1).to({rotation:-32.7254,x:1071.4,y:504.15},0).wait(1).to({rotation:-36.8161,x:1071.7,y:500.15},0).wait(1).to({rotation:-40.9067,y:496.3},0).wait(1).to({rotation:-44.9974,x:1071.5,y:492.75},0).wait(16).to({rotation:-42.2552,x:1073.4,y:494.75},0).wait(1).to({rotation:-39.513,x:1075.25,y:496.85},0).wait(1).to({rotation:-41.6606,x:1073.85,y:495.2},0).wait(1).to({rotation:-43.8081,x:1072.35,y:493.6},0).wait(1).to({rotation:-45.9557,x:1070.8,y:492.1},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-40.7055,x:1074.45,y:495.9},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-45.9557,x:1070.8,y:492.1},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-40.7055,x:1074.45,y:495.9},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-45.9557,x:1070.8,y:492.1},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-40.7055,x:1074.45,y:495.9},0).wait(27).to({rotation:-37.5743,x:1074.25,y:498.85},0).wait(1).to({rotation:-34.4431,x:1073.9,y:501.95},0).wait(1).to({rotation:-31.3119,x:1073.4,y:505.05},0).wait(1).to({rotation:-28.1807,x:1072.7,y:508.35},0).wait(1).to({rotation:-25.0495,x:1072,y:511.65},0).wait(1).to({rotation:-21.9183,x:1071,y:515.05},0).wait(1).to({rotation:-18.7872,x:1069.95,y:518.5},0).wait(1).to({rotation:-15.656,x:1068.65,y:522.05},0).wait(1).to({rotation:-12.5248,x:1067.2,y:525.6},0).wait(1).to({rotation:-9.3936,x:1065.6,y:529.2},0).wait(1).to({rotation:-6.2624,x:1063.8,y:532.8},0).wait(1).to({rotation:-3.1312,x:1061.9,y:536.5},0).wait(1).to({rotation:0,x:1059.8,y:540.2},0).wait(1065));
+	this.timeline.addTween(cjs.Tween.get(this.instance_29).wait(1).to({regX:67.7,x:1059.8},0).wait(28).to({rotation:-4.0907,x:1062.25,y:535.45},0).wait(1).to({rotation:-8.1813,x:1064.35,y:530.75},0).wait(1).to({rotation:-12.272,x:1066.25,y:526.05},0).wait(1).to({rotation:-16.3627,x:1067.8,y:521.55},0).wait(1).to({rotation:-20.4534,x:1069.15,y:517},0).wait(1).to({rotation:-24.544,x:1070.2,y:512.6},0).wait(1).to({rotation:-28.6347,x:1070.9,y:508.3},0).wait(1).to({rotation:-32.7254,x:1071.4,y:504.15},0).wait(1).to({rotation:-36.8161,x:1071.7,y:500.15},0).wait(1).to({rotation:-40.9067,y:496.3},0).wait(1).to({rotation:-44.9974,x:1071.5,y:492.75},0).wait(16).to({rotation:-42.2552,x:1073.4,y:494.75},0).wait(1).to({rotation:-39.513,x:1075.25,y:496.85},0).wait(1).to({rotation:-41.6606,x:1073.85,y:495.2},0).wait(1).to({rotation:-43.8081,x:1072.35,y:493.6},0).wait(1).to({rotation:-45.9557,x:1070.8,y:492.1},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-40.7055,x:1074.45,y:495.9},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-45.9557,x:1070.8,y:492.1},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-40.7055,x:1074.45,y:495.9},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-45.9557,x:1070.8,y:492.1},0).wait(1).to({rotation:-44.2056,x:1072.1,y:493.3},0).wait(1).to({rotation:-42.4556,x:1073.25,y:494.6},0).wait(1).to({rotation:-40.7055,x:1074.45,y:495.9},0).wait(27).to({rotation:-37.5743,x:1074.25,y:498.85},0).wait(1).to({rotation:-34.4431,x:1073.9,y:501.95},0).wait(1).to({rotation:-31.3119,x:1073.4,y:505.05},0).wait(1).to({rotation:-28.1807,x:1072.7,y:508.35},0).wait(1).to({rotation:-25.0495,x:1072,y:511.65},0).wait(1).to({rotation:-21.9183,x:1071,y:515.05},0).wait(1).to({rotation:-18.7872,x:1069.95,y:518.5},0).wait(1).to({rotation:-15.656,x:1068.65,y:522.05},0).wait(1).to({rotation:-12.5248,x:1067.2,y:525.6},0).wait(1).to({rotation:-9.3936,x:1065.6,y:529.2},0).wait(1).to({rotation:-6.2624,x:1063.8,y:532.8},0).wait(1).to({rotation:-3.1312,x:1061.9,y:536.5},0).wait(1).to({rotation:0,x:1059.8,y:540.2},0).wait(1118));
 
 	// legs
 	this.shape_633 = new cjs.Shape();
@@ -8557,7 +8557,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_639.graphics.f("#5F66AF").s().p("AIZH4QgygCgrgXIxDoxQhSgqgchYQgchYAqhSQAqhSBYgcQBYgcBSAqIRDIxQBSAqAcBYQAdBYgrBSQgeA7g5AhQg0Adg7AAIgJAAg");
 	this.shape_639.setTransform(1024.637,652.3741);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_639},{t:this.shape_638},{t:this.shape_637},{t:this.shape_636},{t:this.shape_635},{t:this.shape_634},{t:this.shape_633}]}).wait(1178));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_639},{t:this.shape_638},{t:this.shape_637},{t:this.shape_636},{t:this.shape_635},{t:this.shape_634},{t:this.shape_633}]}).wait(1231));
 
 	// chair
 	this.instance_30 = new lib.Path_11();
@@ -8580,7 +8580,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_641.graphics.f("#839DB7").s().p("EgBxAgNQpAgwmxkEQibhchwhwIgCgCQjNitiYk+QiZk/g7l/QhAmWA5mGQA+msDGlaQFQpLDwivQBxhSBwgKQBjgIB0AxQBfApBhBoQA/BECHC0QCiDaBnB8QC3DeDSDLQC4CyEECJQCUBOEcCEQDxB7CTCXQC+DCB3E4QBPDQgRDiQgRDjhwDOQh1DYjMCgQjbCrkoBZQm+CFm9AAQh9AAh8gLg");
 	this.shape_641.setTransform(931.9946,637.0711);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_641},{t:this.shape_640},{t:this.instance_32},{t:this.instance_31},{t:this.instance_30}]}).wait(1178));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_641},{t:this.shape_640},{t:this.instance_32},{t:this.instance_31},{t:this.instance_30}]}).wait(1231));
 
 	// box
 	this.shape_642 = new cjs.Shape();
@@ -8619,7 +8619,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.instance_33.setTransform(1362.2,844.75,1,1,0,0,0,155.9,42.1);
 	this.instance_33.compositeOperation = "multiply";
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_33},{t:this.shape_649},{t:this.shape_648},{t:this.shape_647},{t:this.shape_646},{t:this.shape_645},{t:this.shape_644},{t:this.shape_643},{t:this.shape_642}]},300).wait(878));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_33},{t:this.shape_649},{t:this.shape_648},{t:this.shape_647},{t:this.shape_646},{t:this.shape_645},{t:this.shape_644},{t:this.shape_643},{t:this.shape_642}]},300).wait(931));
 
 	// bottle
 	this.shape_650 = new cjs.Shape();
@@ -8646,7 +8646,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_655.graphics.f("#207142").s().p("AhZD2QgmgVAAgfIAAmFQAAgdAlgVQAlgWA1AAQA0ABAmAVQAkAVACAdIAAGFQAAAfglAVQgmAWg1AAQg0gBglgVg");
 	this.shape_655.setTransform(1155.075,528.875);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_655},{t:this.shape_654},{t:this.shape_653},{t:this.shape_652},{t:this.shape_651},{t:this.shape_650}]}).wait(1178));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_655},{t:this.shape_654},{t:this.shape_653},{t:this.shape_652},{t:this.shape_651},{t:this.shape_650}]}).wait(1231));
 
 	// table
 	this.shape_656 = new cjs.Shape();
@@ -8693,7 +8693,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.shape_666.graphics.f("#816052").s().p("AzVhVIYOj7IOdHeI6tDDg");
 	this.shape_666.setTransform(1164.55,697.525);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_666},{t:this.shape_665},{t:this.shape_664},{t:this.shape_663},{t:this.shape_662},{t:this.shape_661},{t:this.shape_660},{t:this.shape_659},{t:this.shape_658},{t:this.shape_657},{t:this.shape_656}]}).wait(1178));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_666},{t:this.shape_665},{t:this.shape_664},{t:this.shape_663},{t:this.shape_662},{t:this.shape_661},{t:this.shape_660},{t:this.shape_659},{t:this.shape_658},{t:this.shape_657},{t:this.shape_656}]}).wait(1231));
 
 	// room
 	this.shape_667 = new cjs.Shape();
@@ -8703,7 +8703,7 @@ p.nominalBounds = new cjs.Rectangle(-3.9,-21.2,3151,1043.1);
 	this.instance_34 = new lib.ClipGroup_6();
 	this.instance_34.setTransform(1336.7,674.15,1,1,0,0,0,1336.7,649.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_34},{t:this.shape_667}]}).wait(1178));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_34},{t:this.shape_667}]}).wait(1231));
 
 	this._renderFirstFrame();
 
@@ -8876,18 +8876,18 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/A13x.png", id:"A13x"},
-		{src:"images/Image_1.png", id:"Image_1"},
-		{src:"images/Image_0.png", id:"Image_0"},
-		{src:"images/A63x.png", id:"A63x"},
-		{src:"images/A73x.png", id:"A73x"},
-		{src:"images/a2.png", id:"a2"},
-		{src:"images/Image.png", id:"Image"},
-		{src:"images/map01.png", id:"map01"},
-		{src:"images/a4.png", id:"a4"},
-		{src:"images/a5.png", id:"a5"},
 		{src:"images/A33x.png", id:"A33x"},
+		{src:"images/a5.png", id:"a5"},
+		{src:"images/Image.png", id:"Image"},
 		{src:"images/a0.png", id:"a0"},
+		{src:"images/map01.png", id:"map01"},
+		{src:"images/A73x.png", id:"A73x"},
+		{src:"images/Image_0.png", id:"Image_0"},
+		{src:"images/Image_1.png", id:"Image_1"},
+		{src:"images/A63x.png", id:"A63x"},
+		{src:"images/A13x.png", id:"A13x"},
+		{src:"images/a2.png", id:"a2"},
+		{src:"images/a4.png", id:"a4"},
 		{src:"images/Image_2.png", id:"Image_2"}
 	],
 	preloads: []
