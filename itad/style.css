@@ -1,0 +1,30 @@
+html {
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1D222A;
+}
+
+.title {
+    font-size: 44px;
+    font-weight: 700;
+    color:;
+    line-height: 60px;
+}
+
+.header {
+    position: relative;
+    overflow: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    background-image: url("https://anahid33.github.io/the-lab/itad/assets/itadheader.png");
+    background-size: 80px;
+    margin: auto;
+    margin-bottom: 30px;
+}
