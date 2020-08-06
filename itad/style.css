@@ -49,6 +49,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .flexbox {
@@ -62,10 +63,38 @@ body {
     width: 331px;
     height: 225px;
     text-align: center;
-    background-image: url("https://anahid33.github.io/the-lab/itad/assets/itadheader.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     margin: auto;
     box-shadow: 0px 0px 5px #D6D6D6;
     color: #1D222A;
+    font-weight: 400;
+}
+
+.article-image-1 {
+    background-image: url("https://anahid33.github.io/the-lab/itad/assets/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 331px;
+    height: 155px;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.article-image-2 {
+    background-image: url("https://anahid33.github.io/the-lab/itad/assets/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 331px;
+    height: 155px;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.article-image-3 {
+    background-image: url("https://anahid33.github.io/the-lab/itad/assets/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 331px;
+    height: 155px;
+    background-position: center;
+    margin-bottom: 10px;
 }
