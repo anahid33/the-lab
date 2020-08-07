@@ -222,10 +222,16 @@ body {
     }
     .title::after {
         background-image: url("https://anahid33.github.io/the-lab/itad/assets/chevron.svg");
-        background-position: right;
-        background-repeat: no-repeat;
         background-size: 18px;
         width: 18px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        content: "a";
+        color: transparent;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     .top-section {
         background-color: #fdfdfd;
