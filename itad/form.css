@@ -9,11 +9,13 @@ body {
 
 .flexbox {
     display: flex;
+    max-width: 1000px;
+    margin:auto;
 }
 
 .menu {
     max-width: 1000px;
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-top: 30px;
 }
@@ -42,19 +44,11 @@ body {
     margin-bottom: 4px;
 }
 
-/**
-.sign-in {
-    width: 112px;
-    height: 44px;
-    border-radius: 5px;
-    border: 1px solid #868E9A;
-}**/
-
 .main-section {
     max-width: 1000px;
-    width: 80%;
-    margin: auto;
+    width: 90%;
     padding-top: 94px;
+    margin-bottom: 70px;
 }
 
 .form-section {
@@ -106,9 +100,47 @@ body {
     margin-bottom: 20px;
 }
 
+.progress {
+    max-width: 280px;
+    height: 298px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 25px 0;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    color: #868E9A;
+    margin-bottom: 20px;
+    background-color: #fcfcfd;
+    margin-top: 92px;
+}
+
+.progress-title {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.line-1 {
+    border-style: none none solid none;
+    border-color: #ededed;
+    border-width: 1px;
+    margin: 20px 0 20px;
+}
+
+.progress-active {
+    font-weight: 600;
+    color: #3B99FD;
+}
+
 .help-section {
     background-color: #F5F6F7;
     padding: 50px;
+}
+
+.help-section-2 {
+    max-width: 1000px;
 }
 
 .help-img {
@@ -138,46 +170,6 @@ body {
     width: 263px;
 }
 
-.chevron {
-    background-image: url("libs/dashboard/src/lib/desktop-dashboard/content/chevron.svg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: 7px;
-    width: 7px;
-}
-
-.progress {
-    max-width: 280px;
-    height: 298px;
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 15px 25px 0;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
-    outline: none;
-    color: #868E9A;
-    margin-bottom: 20px;
-    background-color: #fcfcfd;
-}
-
-.progress-title {
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-
-.line-1 {
-    border-style: none none solid none;
-    border-color: #ededed;
-    border-width: 1px;
-    margin: 20px 0 20px;
-}
-
-.progress-active {
-    font-weight: 600;
-    color: #3B99FD;
-}
 
 @media (max-width: 720px){
     .main-section {
@@ -231,6 +223,14 @@ body {
     }
     .title {
         padding-top: 40px;
+        font-size: 28px;
+    }
+    .title::after {
+        background-image: url("https://anahid33.github.io/the-lab/itad/assets/chevron.svg");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 17px;
+        width: 17px;
     }
     .top-section {
         background-color: #fdfdfd;
