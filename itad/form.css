@@ -1,0 +1,236 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #1D222A;
+    margin: 0px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.menu {
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.page-title {
+    font-size: 29px;
+    font-weight: 100;
+}
+
+.red-text {
+    color: #DB423F;
+    font-weight: 900;
+}
+
+.line {
+    border-style: none none solid none;
+    border-color: #1D222A;
+    border-width: .5px;
+    width: 155px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+}
+
+/**
+.sign-in {
+    width: 112px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #868E9A;
+}**/
+
+.main-section {
+    max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    padding-top: 94px;
+}
+
+.form-section {
+    flex-grow: 1;
+    margin-right: 40px;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 35px;
+    margin: 0 0 40px;
+}
+
+.title-2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 50px 0 15px;
+}
+
+.form-button {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    background: rgb(52,151,255);
+    background: linear-gradient(38deg, rgba(52,151,255,1) 0%, rgba(129,191,255,1) 100%);    
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(189,196,213,0.84);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(189,196,213,0.84);
+    box-shadow: 0px 3px 6px 0px rgba(189,196,213,0.84);
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.form-field {
+    max-width: 350px;
+    height: 40px;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 15px 20px 0;
+    border-radius: 5px;
+    border: 1px solid #A7AFBE;
+    outline: none;
+    color: #868E9A;
+    margin-bottom: 20px;
+}
+
+.help-section {
+    background-color: #F5F6F7;
+    padding: 50px;
+}
+
+.help-img {
+    background-image: url("https://anahid33.github.io/the-lab/itad/assets/help-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 112px;
+    width: 312px;
+    margin: auto;
+}
+
+.help-text1 {
+    font-size: 23px;
+    font-weight: 600;
+    text-align: left;
+    width: 263px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.help-text2 {
+    text-align: left;
+    width: 263px;
+    margin: auto;
+}
+
+.chevron {
+    background-image: url("libs/dashboard/src/lib/desktop-dashboard/content/chevron.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 7px;
+    width: 7px;
+}
+
+.progress {
+    max-width: 280px;
+    height: 298px;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 25px 0;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    color: #868E9A;
+    margin-bottom: 20px;
+    background-color: #fcfcfd;
+}
+
+.progress-title {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.line-1 {
+    border-style: none none solid none;
+    border-color: #ededed;
+    border-width: 1px;
+    margin: 20px 0 20px;
+}
+
+.progress-active {
+    font-weight: 600;
+    color: #3B99FD;
+}
+
+@media (max-width: 720px){
+    .main-section {
+        display: block;
+        width: 100%;
+        padding-top: 0px;
+        min-height: calc(100vh - 80px);
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .input-form {
+        max-width: 100%;
+    }
+    .menu {
+        width: calc(100vw - 48px);
+        margin: 0 24px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        border-bottom: 1px solid #1D222A;
+    }
+    .page-title {
+        display: none;
+    }
+    .line {
+        border-style: none;
+    }
+    .form-section {
+        padding: 0 24px;
+        box-sizing: border-box;
+        flex-grow: 0;
+        margin-right: 0px;
+    }
+    .help-section {
+        padding: 60px 24px;
+        box-sizing: border-box;
+        background-color: #F5F6F7;
+        flex-grow: 1;
+        margin-bottom: 80px;
+    }
+    .help-img {
+        width: 224px;
+    }
+    .help-text1 {
+        font-size: 16px;
+    }
+    .help-text2 {
+        font-size: 16px;
+    }
+    .title {
+        padding-top: 40px;
+    }
+    .top-section {
+        background-color: #fdfdfd;
+    }
+}
