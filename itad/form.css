@@ -176,7 +176,7 @@ body {
         display: flex;
         align-items: stretch;
         flex-direction: column;
-        margin: 20px;
+        margin: 0px;
     }
     .input-form {
         max-width: 100%;
@@ -217,21 +217,20 @@ body {
         font-size: 16px;
     }
     .title {
-        padding-top: 40px;
+        margin-top: 40px;
         font-size: 28px;
+        margin-bottom: 20px;
     }
     .title::after {
         background-image: url("https://anahid33.github.io/the-lab/itad/assets/chevron.svg");
         background-size: 18px;
         width: 18px;
         position: absolute;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
         content: "a";
         color: transparent;
         background-position: center;
         background-repeat: no-repeat;
+        margin-left: 12px;
     }
     .top-section {
         background-color: #fdfdfd;
