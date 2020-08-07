@@ -121,19 +121,21 @@ body {
     margin: auto;
 }
 
+.help-text {
+    margin: auto;
+}
+
 .help-text1 {
     font-size: 23px;
     font-weight: 600;
     text-align: left;
     width: 263px;
-    margin: auto;
     padding-bottom: 10px;
 }
 
 .help-text2 {
     text-align: left;
     width: 263px;
-    margin: auto;
 }
 
 .chevron {
