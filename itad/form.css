@@ -110,13 +110,19 @@ body {
     margin-bottom: 20px;
 }
 
+/**
+label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}**/
+
 .radio-button {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 25px;
+  padding-left: 45px;
+  margin-top: 25px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 18px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -131,7 +137,7 @@ body {
 }
 
 /* Create a custom radio button */
-.checkmark {
+.radio-checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -143,20 +149,20 @@ body {
 }
 
 /* When the radio button is checked, add a blue background */
-.radio-button input:checked ~ .checkmark {
+.radio-button input:checked ~ .radio-checkmark {
   background-color: #3B99FD;
   border: 1px solid #3B99FD;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
-.checkmark:after {
+.radio-checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
 /* Show the indicator (dot/circle) when checked */
-.radio-button input:checked ~ .checkmark:after {
+.radio-button input:checked ~ .radio-checkmark:after {
   display: block;
 }
 
@@ -165,6 +171,74 @@ body {
 	border-radius: 50%;
 	background: white;
     background-image: url("https://anahid33.github.io/the-lab/itad/assets/check.svg");
+}
+
+/* The container */
+.box-button {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.box-button input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.box-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.box-button:hover input ~ .box-checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.box-button input:checked ~ .box-checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.box-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.box-button input:checked ~ .box-checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.box-button .box-checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .progress {
