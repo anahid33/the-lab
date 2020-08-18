@@ -83,8 +83,8 @@ body {
     font-size: 17px;
     font-weight: 400;
     background: rgb(52,151,255);
-    background: linear-gradient(38deg, rgba(52,151,255,1) 0%, rgba(129,191,255,1) 100%);    
-    width: 320px;
+    background: linear-gradient(38deg, rgba(52,151,255,1) 0%, rgba(129,191,255,1) 100%);
+    max-width: 320px;
     height: 40px;
     border-radius: 5px;
     -webkit-box-shadow: 0px 3px 6px 0px rgba(189,196,213,0.84);
@@ -312,6 +312,13 @@ label {
     width: 263px;
 }
 
+button {
+    
+}
+
+a {
+    text-decoration: none;
+}
 
 @media (max-width: 720px){
     .main-section {
@@ -369,6 +376,13 @@ label {
         font-size: 28px;
         margin-bottom: 20px;
     }
+    button {
+        font-size: 28px;
+        font-family: 'Nunito Sans', sans-serif;
+        background-color: fff;
+        border: 0px;
+        padding: 0px;
+    }
     .title::after {
         background-image: url("https://anahid33.github.io/the-lab/itad/assets/chevron.svg");
         background-size: 18px;
@@ -387,8 +401,15 @@ label {
         display: none;
     }
     .form-button {
-        margin: 20px;
+        margin: auto;
         margin-top: 20px;
         margin-bottom: 40px;
+        max-width: 100%x;
+    }
+    
+    .progress-accordion {
+        /*background-color: #fcfcfd;*/
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 }

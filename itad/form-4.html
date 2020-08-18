@@ -12,7 +12,41 @@
     </div>
     <div class="main-section flexbox">
         <div class="form-section">
-            <div class="title">Bulk pickup details</div>
+            
+            <button class="title accordion">Bulk pickup details</button>
+            <div class="panel">
+                <div class="progress-accordion">
+                <div class="progress-title">REQUEST PROGRESS</div>
+                <div>Pickup Details</div>
+                <div class="progress-detail">101 Pizza pie ln, Charlotte, NC</div>
+                <div class="line-1"></div>
+                <div>Equipment Quantities</div>
+                <div class="progress-detail">Detail</div>
+                <div class="line-1"></div>
+                <div class="">Shipping Information</div>
+                <div class="line-1"></div>
+                <div class="progress-active">Bulk Pickup Details</div>
+            </div>
+            </div>
+
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+            
+            
             <div class="title-4">Building details</div>
             <label class="box-button">
               <input type="checkbox" checked="checked">
@@ -96,9 +130,9 @@
                 <div>Equipment Quantities</div>
                 <div class="progress-detail">Detail</div>
                 <div class="line-1"></div>
-                <div class="progress-active">Shipping Information</div>
+                <div class="">Shipping Information</div>
                 <div class="line-1"></div>
-                <div>Bulk Pickup Details</div>
+                <div class="progress-active">Bulk Pickup Details</div>
             </div>
             <div class="form-button">Save and Continue</div>
         </div>

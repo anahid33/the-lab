@@ -12,7 +12,39 @@
     </div>
     <div class="main-section flexbox">
         <div class="form-section">
-            <div class="title">Equipment quantities</div>
+            <button class="title accordion">Equipment quantities</button>
+            <div class="panel">
+                <div class="progress-accordion">
+                    <div class="progress-title">REQUEST PROGRESS</div>
+                    <div class="">Pickup Details</div>
+                    <div class="progress-detail">101 Pizza pie ln, Charlotte, NC</div>
+                    <div class="line-1"></div>
+                    <div class="progress-active">Equipment Quantities</div>
+                    <div class="line-1"></div>
+                    <div>Shipping Information</div>
+                    <div class="line-1"></div>
+                    <div>Bulk Pickup Details</div>
+                </div>
+            </div>
+
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+            
+            
             <div class="form-field">Number of desktops</div>
             <div class="form-field">Number of laptops</div>
             <div class="form-field">Number of monitors</div>
