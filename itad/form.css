@@ -26,7 +26,7 @@ body {
 }
 
 .page-title {
-    font-size: 29px;
+    font-size: 24px;
     font-weight: 100;
 }
 
@@ -39,7 +39,7 @@ body {
     border-style: none none solid none;
     border-color: #1D222A;
     border-width: .5px;
-    width: 155px;
+    width: 143px;
     margin-top: 3px;
     margin-bottom: 4px;
 }
@@ -47,7 +47,7 @@ body {
 .main-section {
     max-width: 1000px;
     width: 90%;
-    padding-top: 94px;
+    padding-top: 30px;
     margin-bottom: 70px;
 }
 
@@ -59,18 +59,22 @@ body {
 .title {
     font-weight: 900;
     font-size: 35px;
-    margin: 0 0 40px;
+    max-width: 1000px;
+    width: 90%;
+    padding-top: 94px;
+    margin: auto;
 }
 
 .title-2 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     margin: 50px 0 15px;
 }
 
 .title-3 {
     font-size: 22px;
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 .title-4 {
     font-size: 17px;
@@ -96,18 +100,37 @@ body {
 }
 
 .form-field {
-    max-width: 350px;
+    max-width: 400px;
     height: 40px;
     display: block;
     font-size: 18px;
     font-weight: 500;
     font-family: "Nunito Sans", sans-serif;
-    padding: 15px 20px 0;
+    padding: 25px 10px;
     border-radius: 5px;
     border: 1px solid #A7AFBE;
     outline: none;
-    color: #868E9A;
+    color: black;
     margin-bottom: 20px;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+::placeholder {
+  font-weight: 300;
+  color: #868E9A;
+  opacity: 1;
+}
+
+.text-field {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 7px 10px;
+    max-width: 400px;
+    min-width: 300px;
+    min-height: 100px;
+    max-height: 400px;
 }
 
 /**
@@ -116,13 +139,17 @@ label {
     margin-bottom: 20px;
 }**/
 
+.checkmark-section {
+    margin-bottom: 60px;
+}
+
 .radio-button {
   display: block;
   position: relative;
-  padding-left: 45px;
-  margin-top: 25px;
+  padding-left: 30px;
+  margin-bottom: 15px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 17px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -141,8 +168,8 @@ label {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   background-color: #fff;
   border-radius: 50%;
   border: 1px solid black;
@@ -177,10 +204,10 @@ label {
 .box-button {
   display: block;
   position: relative;
-  padding-left: 35px;
+  padding-left: 30px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 17px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -201,8 +228,8 @@ label {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   background-color: #eee;
 }
 
@@ -230,8 +257,8 @@ label {
 
 /* Style the checkmark/indicator */
 .box-button .box-checkmark:after {
-  left: 9px;
-  top: 5px;
+  left: 6px;
+  top: 2px;
   width: 5px;
   height: 10px;
   border: solid white;
@@ -242,7 +269,7 @@ label {
 }
 
 .progress {
-    max-width: 280px;
+    max-width: 300px;
     height: 298px;
     display: block;
     font-size: 16px;
@@ -312,14 +339,48 @@ label {
     width: 263px;
 }
 
-button {
-    
-}
-
 a {
     text-decoration: none;
 }
 
+.panel {
+    display: none;
+}
+.accordion-button {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+input[type="file"] {
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    left: 8px;
+    font-size: 17px;
+    color: #b8b8b8;
+}
+
+.button-wrap {
+    position: relative;
+}
+.upload-button {
+    display: inline-block;
+    padding: 20px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: regular;
+    text-align: center;
+    color: black;
+    box-shadow: 0px 0px 6px #E3E2E2;
+    margin-bottom: 20px;
+    width: 300px;
+}
+    
 @media (max-width: 720px){
     .main-section {
         display: block;
@@ -355,16 +416,18 @@ a {
         margin-right: 0px;
     }
     .help-section {
-        padding: 60px 24px;
+        padding: 30px 24px 40px;
         box-sizing: border-box;
         background-color: #F5F6F7;
         flex-grow: 1;
+        flex-direction: column-reverse
     }
     .help-img {
-        width: 224px;
+        width: 200px;
+        margin-bottom: 20px;
     }
     .help-text1 {
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
     }
     .help-text2 {
@@ -372,8 +435,8 @@ a {
         text-align: center;
     }
     .title {
-        margin-top: 40px;
-        font-size: 28px;
+        margin-top: 30px;
+        font-size: 23px;
         margin-bottom: 20px;
     }
     button {
@@ -404,7 +467,7 @@ a {
         margin: auto;
         margin-top: 20px;
         margin-bottom: 40px;
-        max-width: 100%x;
+        max-width: 300px;
     }
     
     .progress-accordion {
@@ -412,4 +475,15 @@ a {
         margin-top: 20px;
         margin-bottom: 50px;
     }
+    
+    .panel.showmenu {
+        display: block;
+    }
+    
+    .accordion-button {
+        display: block;
+        margin-top: 0px;
+    }
+    
+    
 }

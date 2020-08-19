@@ -1,0 +1,259 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+    
+<body>
+    <div class="menu">
+        <span class="red-text">Connect</span>
+        <div class="line"></div>
+        <div class="page-title">ITAD Request</div>
+    </div>
+    
+    <div class="accordion" style="position:relative;">
+        <div class="title">Pickup Details</div>
+        <div id="form-1" class="title hidden">Equipment Quantities</div>
+        <div class="accordion-button" style="position:absolute; top:0; left:0; right:0; bottom:0;" onclick="toggleAccordion()"></div>
+    </div>
+    
+    <div class="panel" id="panelID">
+        <div class="progress-accordion">
+            <div class="progress-title">REQUEST PROGRESS</div>
+            <div class="progress-active form-selector" onclick="goToPage(1)" id="form-selector-1">Pickup Details</div>
+            <div class="line-1"></div>
+            <div class="form-selector" onclick="goToPage(2)" id="form-selector-2">Equipment Quantities</div>
+            <div class="line-1"></div>
+            <div class="form-selector" onclick="goToPage(3)" id="form-selector-3">Shipping Information</div>
+            <div class="line-1"></div>
+            <div class="form-selector" onclick="goToPage(4)" id="form-selector-4">Bulk Pickup Details</div>
+            <div class="line-1"></div>
+            <div class="form-selector" onclick="goToPage(5)" id="form-selector-5">Uploads</div>
+        </div>
+    </div>
+    
+    <div class="main-section flexbox">
+        <div class="form-section">
+                        
+<!--
+            <script>
+            function toggleAccordion() {
+                $("#panelID").toggleClass("showmenu");
+            }
+                
+            var currentform = 1;
+                function nextPage() {
+                    goToPage(currentform+1);
+                }
+                
+                function lastPage() {
+                    goToPage(currentform-1);
+                }
+                
+                function goToPage(page) {
+                    if(page<1 || page>5){
+                        return;
+                    }
+                    currentform = page;
+                    $("#panelID").removeClass("showmenu");
+                    $(".form-panel").addClass("hidden");
+                    $("#form-"+page).removeClass("hidden");
+                    
+                    $(".form-selector").removeClass("progress-active");
+                    $("#form-selector-"+page).addClass("progress-active");
+                }
+            </script> -->
+            <form>
+                <div id="form-5" class="hidden form-panel">
+                
+                <div class="button-wrap">
+                    <label class="upload-button" for="upload">Upload Sample of Requirements</label>
+                    <input id="upload" type="file">
+                </div>
+
+                <div class="button-wrap">
+                    <label class="upload-button" for="upload">Upload helpful images</label>
+                    <input id="upload" type="file">
+                </div>
+
+                </div>
+                <div id="form-4" class="hidden form-panel">
+                    <div class="checkmark-section">
+                        <div class="title-4">Building details</div>
+                        <label class="box-button">
+                          <input type="checkbox" checked="checked">
+                          <span class="box-checkmark"></span>Freight elevator
+                        </label>
+                        <label class="box-button">
+                          <input type="checkbox" checked="checked">
+                          <span class="box-checkmark"></span>Loading dock
+                        </label>
+                    </div>
+
+
+                    <div class="checkmark-section">
+                    <div class="title-4">Is a truck with lift gate required?</div>
+                        <label class="radio-button">
+                          <input type="radio" checked="checked" name="lift-gate-truck">
+                          <span class="radio-checkmark"></span>Yes
+                        </label>
+                        <label class="radio-button">
+                          <input type="radio" checked="checked" name="lift-gate-truck">
+                          <span class="radio-checkmark"></span>No
+                        </label>
+                    </div>
+
+
+                    <div class="title-4">On what floor is equipment located</div>
+                    <input name="floor" class="form-field" type="text" placeholder="Floor number">
+
+                    <div class="checkmark-section">
+                        <div class="title-4">Equipment details</div>
+                        <label class="box-button">
+                          <input type="checkbox" checked="checked">
+                          <span class="box-checkmark"></span>All in one room
+                        </label>
+                        <label class="box-button">
+                          <input type="checkbox" checked="checked">
+                          <span class="box-checkmark"></span>Palletized
+                        </label>
+                        <label class="box-button">
+                          <input type="checkbox" checked="checked">
+                          <span class="box-checkmark"></span>Wrapped
+                        </label>
+                        <label class="box-button">
+                          <input type="checkbox" checked="checked">
+                          <span class="box-checkmark"></span>Boxed
+                        </label>
+                    </div>
+
+
+                    <div class="checkmark-section">
+                        <div class="title-4">Is there an EXACT date for pickup?</div>
+                        <label class="radio-button">
+                          <input type="radio" checked="checked" name="exact-pickup-date">
+                          <span class="radio-checkmark"></span>No, my pickup date is flexible
+                        </label>
+                        <label class="radio-button">
+                          <input type="radio" checked="checked" name="exact-pickup-date">
+                          <span class="radio-checkmark"></span>Yes
+                        </label>
+                        <input name="floor" class="form-field" type="text" placeholder="Date">
+                    </div>
+
+
+                    <div class="checkmark-section">
+                        <div class="title-4">Is there an EXACT time frame for pickup?</div>
+                        <label class="radio-button">
+                          <input type="radio" checked="checked" name="exact-pickup-time">
+                          <span class="radio-checkmark"></span>No, I can do any time
+                        </label>
+                        <label class="radio-button">
+                          <input type="radio" checked="checked" name="exact-pickup-time">
+                          <span class="radio-checkmark"></span>Yes
+                        </label>
+                        <input name="floor" class="form-field" type="text" placeholder="Time">
+                    </div>
+
+
+                    <div class="title-2">Additional comments</div>
+                    <textarea name="comments-4" class="text-field" rows="5" cols="30"></textarea>
+                </div>
+                <div id="form-3" class="hidden form-panel">
+                    <div class="title-2">Pickup location</div>
+                    <input name="street" class="form-field" type="text" placeholder="Street">
+                    <input name="apt" class="form-field" type="text" placeholder="Apt/Suite">
+                    <input name="city" class="form-field" type="text" placeholder="City">
+                    <input name="state" class="form-field" type="text" placeholder="State">
+                    <input name="zip" class="form-field" type="text" placeholder="Zip code">
+                    <div class="title-2">What kind of shipping?</div>
+
+                    <label class="radio-button">
+                      <input type="radio" checked="checked" name="shipping">
+                      <span class="radio-checkmark"></span>Airbill request
+                    </label>
+                    <label class="radio-button">
+                      <input type="radio" checked="checked" name="shipping">
+                      <span class="radio-checkmark"></span>Box out request
+                    </label>
+                    <label class="radio-button">
+                      <input type="radio" checked="checked" name="shipping">
+                      <span class="radio-checkmark"></span>Bulk transportation
+                    </label>
+                </div>
+                <div id="form-2" class="hidden form-panel">
+                    <input name="desktops" class="form-field" type="text" placeholder="Number of desktops">
+                    <input name="laptops" class="form-field" type="text" placeholder="Number of laptops">
+                    <input name="monitors" class="form-field" type="text" placeholder="Number of monitors">
+                    <input name="printers" class="form-field" type="text" placeholder="Number of printers">
+                    <input name="fax" class="form-field" type="text" placeholder="Number of fax machines">
+                    <input name="racks" class="form-field" type="text" placeholder="Number of racks">
+
+                    <div class="checkbox-section">
+                        <div class="title-3">Are the racks populated?</div>
+                        <label class="radio-button">
+                          <input type="radio" checked="checked" name="racks">
+                          <span class="radio-checkmark"></span>Yes
+                        </label>
+                        <label class="radio-button">
+                          <input type="radio" checked="checked" name="racks">
+                          <span class="radio-checkmark"></span>No
+                        </label>
+                    </div>
+
+                    <input name="racks" class="form-field" type="text" placeholder="How many servers?">
+                    <input name="racks" class="form-field" type="text" placeholder="Number of scanners">
+                    <input name="racks" class="form-field" type="text" placeholder="Number of servers">
+                    <input name="racks" class="form-field" type="text" placeholder="Number of network items">
+                    <input name="racks" class="form-field" type="text" placeholder="Number of boxes of miscellaneous items">
+
+                    <div class="title-3">Detailed description</div>
+                    <textarea name="description-2" class="text-field" rows="5" cols="30"></textarea>
+                </div>
+                <div id="form-1" class="form-panel">
+                    <input name="Customer-Name" class="form-field" type="text" placeholder="Customer Name">
+                    <input class="form-field" type="text" placeholder="CompuCom transaction number">
+                    <input name="Project-Name" class="form-field" type="text" placeholder="Pickup project name">
+                    <div class="title-2">Contact person</div>
+                    <input name="Contact-Name" class="form-field" type="text" placeholder="Contact Name">
+                    <input name="Contact-Phone" class="form-field" type="text" placeholder="Contact Phone">
+                    <input name="Contact-Email" class="form-field" type="text" placeholder="Contact Email">
+                </div>
+            </form>
+        </div>
+        
+        <div>
+            <div class="progress">
+                <div class="progress-title">REQUEST PROGRESS</div>
+                <div class="progress-active form-selector" onclick="goToPage(1)" id="form-selector-1">Pickup Details</div>
+                <div class="line-1"></div>
+                <div class="form-selector" onclick="goToPage(2)" id="form-selector-2">Equipment Quantities</div>
+                <div class="line-1"></div>
+                <div class="form-selector" onclick="goToPage(3)" id="form-selector-3">Shipping Information</div>
+                <div class="line-1"></div>
+                <div class="form-selector" onclick="goToPage(4)" id="form-selector-4">Bulk Pickup Details</div>
+                <div class="line-1"></div>
+                <div class="form-selector" onclick="goToPage(5)" id="form-selector-5">Uploads</div>
+            </div>
+            
+            <div class="form-button" onclick="nextPage()">Continue</div>
+        </div>
+        
+        
+    </div>
+    
+    <div class="flexbox help-section">
+        <div class="help-text">
+            <div class="help-text1">Need more assistance?</div>
+            <div class="help-text2">Contact the CompuCom<br>ITAD Team<br><br>ITADrequests@compucom.com</div>
+        </div>
+        <div class="help-img"></div>
+    </div>
+    
+    
+</body>
+    
+</html>

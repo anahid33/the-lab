@@ -2,6 +2,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     
 <body>
@@ -45,28 +46,33 @@
             </script>
             
             
-            <div class="form-field">Number of desktops</div>
-            <div class="form-field">Number of laptops</div>
-            <div class="form-field">Number of monitors</div>
-            <div class="form-field">Number of printers</div>
-            <div class="form-field">Number of fax machines</div>
-            <div class="form-field">Number of racks</div>
-            <div class="title-3">Are the racks populated?</div>
-            <label class="radio-button">
-              <input type="radio" checked="checked" name="radio">
-              <span class="radio-checkmark"></span>Yes
-            </label>
-            <label class="radio-button">
-              <input type="radio" checked="checked" name="radio">
-              <span class="radio-checkmark"></span>No
-            </label>
-            <div class="form-field">How many servers?</div>
-            <div class="form-field">Number of scanners</div>
-            <div class="form-field">Number of servers</div>
-            <div class="form-field">Number of network items</div>
-            <div class="form-field">Number of boxes of miscellaneous items</div>
+            <input name="desktops" class="form-field" type="text" placeholder="Number of desktops">
+            <input name="laptops" class="form-field" type="text" placeholder="Number of laptops">
+            <input name="monitors" class="form-field" type="text" placeholder="Number of monitors">
+            <input name="printers" class="form-field" type="text" placeholder="Number of printers">
+            <input name="fax" class="form-field" type="text" placeholder="Number of fax machines">
+            <input name="racks" class="form-field" type="text" placeholder="Number of racks">
+            
+            <div class="checkbox-section">
+                <div class="title-3">Are the racks populated?</div>
+                <label class="radio-button">
+                  <input type="radio" checked="checked" name="racks">
+                  <span class="radio-checkmark"></span>Yes
+                </label>
+                <label class="radio-button">
+                  <input type="radio" checked="checked" name="racks">
+                  <span class="radio-checkmark"></span>No
+                </label>
+            </div>
+            
+            <input name="racks" class="form-field" type="text" placeholder="How many servers?">
+            <input name="racks" class="form-field" type="text" placeholder="Number of scanners">
+            <input name="racks" class="form-field" type="text" placeholder="Number of servers">
+            <input name="racks" class="form-field" type="text" placeholder="Number of network items">
+            <input name="racks" class="form-field" type="text" placeholder="Number of boxes of miscellaneous items">
+            
             <div class="title-3">Detailed description</div>
-            <div class="form-field">Describe more about the miscellaneous items here</div>
+            <textarea name="description-2" class="text-field"></textarea>
         </div>
         
         <div>

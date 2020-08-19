@@ -2,6 +2,7 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
     
 <body>
@@ -46,74 +47,82 @@
             }
             </script>
             
+            <div class="checkmark-section">
+                <div class="title-4">Building details</div>
+                <label class="box-button">
+                  <input type="checkbox" checked="checked">
+                  <span class="box-checkmark"></span>Freight elevator
+                </label>
+                <label class="box-button">
+                  <input type="checkbox" checked="checked">
+                  <span class="box-checkmark"></span>Loading dock
+                </label>
+            </div>
             
-            <div class="title-4">Building details</div>
-            <label class="box-button">
-              <input type="checkbox" checked="checked">
-              <span class="box-checkmark"></span>Freight elevator
-            </label>
-            <label class="box-button">
-              <input type="checkbox" checked="checked">
-              <span class="box-checkmark"></span>Loading dock
-            </label>
             
-            
+            <div class="checkmark-section">
             <div class="title-4">Is a truck with lift gate required?</div>
-            <label class="radio-button">
-              <input type="radio" checked="checked" name="radio">
-              <span class="radio-checkmark"></span>Yes
-            </label>
-            <label class="radio-button">
-              <input type="radio" checked="checked" name="radio">
-              <span class="radio-checkmark"></span>No
-            </label>
+                <label class="radio-button">
+                  <input type="radio" checked="checked" name="lift-gate-truck">
+                  <span class="radio-checkmark"></span>Yes
+                </label>
+                <label class="radio-button">
+                  <input type="radio" checked="checked" name="lift-gate-truck">
+                  <span class="radio-checkmark"></span>No
+                </label>
+            </div>
             
             
             <div class="title-4">On what floor is equipment located</div>
             <div class="form-field">Floor number</div>
             
-            
-            <div class="title-2">Equipment details</div>
-            <label class="box-button">
-              <input type="checkbox" checked="checked">
-              <span class="box-checkmark"></span>All in one room
-            </label>
-            <label class="box-button">
-              <input type="checkbox" checked="checked">
-              <span class="box-checkmark"></span>Palletized
-            </label>
-            <label class="box-button">
-              <input type="checkbox" checked="checked">
-              <span class="box-checkmark"></span>Wrapped
-            </label>
-            <label class="box-button">
-              <input type="checkbox" checked="checked">
-              <span class="box-checkmark"></span>Boxed
-            </label>
-            
-            
-            <div class="title-4">Is there an EXACT date for pickup?</div>
-            <label class="radio-button">
-              <input type="radio" checked="checked" name="radio">
-              <span class="radio-checkmark"></span>Yes
-            </label>
-            <label class="radio-button">
-              <input type="radio" checked="checked" name="radio">
-              <span class="radio-checkmark"></span>No, my pickup date is flexible
-            </label>
-            <div class="form-field">Select specific date</div>
+            <div class="checkmark-section">
+                <div class="title-4">Equipment details</div>
+                <label class="box-button">
+                  <input type="checkbox" checked="checked">
+                  <span class="box-checkmark"></span>All in one room
+                </label>
+                <label class="box-button">
+                  <input type="checkbox" checked="checked">
+                  <span class="box-checkmark"></span>Palletized
+                </label>
+                <label class="box-button">
+                  <input type="checkbox" checked="checked">
+                  <span class="box-checkmark"></span>Wrapped
+                </label>
+                <label class="box-button">
+                  <input type="checkbox" checked="checked">
+                  <span class="box-checkmark"></span>Boxed
+                </label>
+            </div>
             
             
-            <div class="title-4">Is there an EXACT time frame for pickup?</div>
-            <label class="radio-button">
-              <input type="radio" checked="checked" name="radio">
-              <span class="radio-checkmark"></span>Yes
-            </label>
-            <label class="radio-button">
-              <input type="radio" checked="checked" name="radio">
-              <span class="radio-checkmark"></span>No, I can do any time
-            </label>
-            <div class="form-field">Select specific time</div>
+            <div class="checkmark-section">
+                <div class="title-4">Is there an EXACT date for pickup?</div>
+                <label class="radio-button">
+                  <input type="radio" checked="checked" name="exact-pickup-date">
+                  <span class="radio-checkmark"></span>Yes
+                </label>
+                <label class="radio-button">
+                  <input type="radio" checked="checked" name="exact-pickup-date">
+                  <span class="radio-checkmark"></span>No, my pickup date is flexible
+                </label>
+                <div class="form-field">Select specific date</div>
+            </div>
+            
+            
+            <div class="checkmark-section">
+                <div class="title-4">Is there an EXACT time frame for pickup?</div>
+                <label class="radio-button">
+                  <input type="radio" checked="checked" name="exact-pickup-time">
+                  <span class="radio-checkmark"></span>Yes
+                </label>
+                <label class="radio-button">
+                  <input type="radio" checked="checked" name="exact-pickup-time">
+                  <span class="radio-checkmark"></span>No, I can do any time
+                </label>
+                <div class="form-field">Select specific time</div>
+            </div>
             
             
             <div class="title-2">Additional comments</div>
