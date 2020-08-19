@@ -10,7 +10,7 @@ body {
 .flexbox {
     display: flex;
     max-width: 1000px;
-    margin:auto;
+    margin: auto;
 }
 
 .menu {
@@ -55,6 +55,47 @@ body {
     flex-grow: 1;
     margin-right: 40px;
 }
+
+.form-panel {
+}
+
+.progress {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 25px 20px;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    outline: none;
+    color: #868E9A;
+    margin-bottom: 20px;
+    background-color: #fcfcfd;
+    width: 250px;
+}
+
+.progress-title {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.line-1 {
+    border-style: none none solid none;
+    border-color: #ededed;
+    border-width: 1px;
+    margin: 20px 0 20px;
+}
+
+.progress-active {
+    font-weight: 600;
+    color: #3B99FD;
+}
+
+.progress-detail {
+    font-size: 12px;
+    font-weight: 100;
+}
+
 
 .title {
     font-weight: 900;
@@ -268,45 +309,6 @@ label {
   transform: rotate(45deg);
 }
 
-.progress {
-    max-width: 300px;
-    height: 298px;
-    display: block;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 15px 25px 0;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
-    outline: none;
-    color: #868E9A;
-    margin-bottom: 20px;
-    background-color: #fcfcfd;
-    margin-top: 92px;
-}
-
-.progress-title {
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-
-.line-1 {
-    border-style: none none solid none;
-    border-color: #ededed;
-    border-width: 1px;
-    margin: 20px 0 20px;
-}
-
-.progress-active {
-    font-weight: 600;
-    color: #3B99FD;
-}
-
-.progress-detail {
-    font-size: 12px;
-    font-weight: 100;
-}
-
 .help-section {
     background-color: #F5F6F7;
     padding: 50px;
@@ -423,7 +425,7 @@ input[type="file"] {
         flex-direction: column-reverse
     }
     .help-img {
-        width: 200px;
+        width: 70%;
         margin-bottom: 20px;
     }
     .help-text1 {
@@ -438,6 +440,7 @@ input[type="file"] {
         margin-top: 30px;
         font-size: 23px;
         margin-bottom: 20px;
+        padding-top: 0px;
     }
     button {
         font-size: 28px;
@@ -471,9 +474,10 @@ input[type="file"] {
     }
     
     .progress-accordion {
-        /*background-color: #fcfcfd;*/
-        margin-top: 20px;
+        background-color: #fcfcfd;
+        padding: 20px 20px 20px;
         margin-bottom: 50px;
+        border: 1px solid #ededed;
     }
     
     .panel.showmenu {
@@ -482,7 +486,6 @@ input[type="file"] {
     
     .accordion-button {
         display: block;
-        margin-top: 0px;
     }
     
     
