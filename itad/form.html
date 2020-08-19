@@ -16,7 +16,6 @@
     
     <div class="accordion" style="position:relative;">
         <div class="title">Pickup Details</div>
-        <div id="form-1" class="title hidden">Equipment Quantities</div>
         <div class="accordion-button" style="position:absolute; top:0; left:0; right:0; bottom:0;" onclick="toggleAccordion()"></div>
     </div>
     
@@ -36,8 +35,8 @@
     </div>
     
     <div class="main-section flexbox">
-        <div class="form-section">
-                        
+        
+        <div class="form-section">                
 <!--
             <script>
             function toggleAccordion() {
@@ -169,8 +168,8 @@
                     <input name="city" class="form-field" type="text" placeholder="City">
                     <input name="state" class="form-field" type="text" placeholder="State">
                     <input name="zip" class="form-field" type="text" placeholder="Zip code">
+                    <br>
                     <div class="title-2">What kind of shipping?</div>
-
                     <label class="radio-button">
                       <input type="radio" checked="checked" name="shipping">
                       <span class="radio-checkmark"></span>Airbill request
@@ -191,25 +190,25 @@
                     <input name="printers" class="form-field" type="text" placeholder="Number of printers">
                     <input name="fax" class="form-field" type="text" placeholder="Number of fax machines">
                     <input name="racks" class="form-field" type="text" placeholder="Number of racks">
-
+                    <br>
                     <div class="checkbox-section">
                         <div class="title-3">Are the racks populated?</div>
                         <label class="radio-button">
                           <input type="radio" checked="checked" name="racks">
-                          <span class="radio-checkmark"></span>Yes
+                          <span class="radio-checkmark"></span>No
                         </label>
                         <label class="radio-button">
                           <input type="radio" checked="checked" name="racks">
-                          <span class="radio-checkmark"></span>No
+                          <span class="radio-checkmark"></span>Yes
                         </label>
+                        <input name="racks" class="form-field" type="text" placeholder="How many servers?">
                     </div>
-
-                    <input name="racks" class="form-field" type="text" placeholder="How many servers?">
+                    <br>
                     <input name="racks" class="form-field" type="text" placeholder="Number of scanners">
                     <input name="racks" class="form-field" type="text" placeholder="Number of servers">
                     <input name="racks" class="form-field" type="text" placeholder="Number of network items">
-                    <input name="racks" class="form-field" type="text" placeholder="Number of boxes of miscellaneous items">
-
+                    <input name="racks" class="form-field" type="text" placeholder="Boxes of miscellaneous items">
+                    <br>
                     <div class="title-3">Detailed description</div>
                     <textarea name="description-2" class="text-field" rows="5" cols="30"></textarea>
                 </div>
@@ -217,6 +216,7 @@
                     <input name="Customer-Name" class="form-field" type="text" placeholder="Customer Name">
                     <input class="form-field" type="text" placeholder="CompuCom transaction number">
                     <input name="Project-Name" class="form-field" type="text" placeholder="Pickup project name">
+                    <br>
                     <div class="title-2">Contact person</div>
                     <input name="Contact-Name" class="form-field" type="text" placeholder="Contact Name">
                     <input name="Contact-Phone" class="form-field" type="text" placeholder="Contact Phone">
@@ -241,7 +241,6 @@
             
             <div class="form-button" onclick="nextPage()">Continue</div>
         </div>
-        
         
     </div>
     

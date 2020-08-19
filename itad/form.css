@@ -109,7 +109,7 @@ body {
 .title-2 {
     font-weight: 600;
     font-size: 20px;
-    margin: 50px 0 15px;
+    margin-bottom: 15px;
 }
 
 .title-3 {
@@ -405,6 +405,9 @@ input[type="file"] {
         margin-bottom: 0px;
         border-bottom: 1px solid #1D222A;
     }
+    .red-text {
+        font-size: 20px;
+    }
     .page-title {
         display: none;
     }
@@ -441,6 +444,7 @@ input[type="file"] {
         font-size: 23px;
         margin-bottom: 20px;
         padding-top: 0px;
+        margin-left: 25px
     }
     button {
         font-size: 28px;
@@ -467,10 +471,11 @@ input[type="file"] {
         display: none;
     }
     .form-button {
-        margin: auto;
         margin-top: 20px;
         margin-bottom: 40px;
-        max-width: 300px;
+        margin-left: 25px;
+        min-width: 275px;
+        width: 90%;
     }
     
     .progress-accordion {
@@ -486,6 +491,15 @@ input[type="file"] {
     
     .accordion-button {
         display: block;
+    }
+    
+    .form-field {
+        min-width: 275px;
+        width: 90%;
+    }
+    .text-field {
+        min-width: 275px;
+        width: 90%;
     }
     
     
