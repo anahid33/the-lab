@@ -147,7 +147,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     font-family: "Nunito Sans", sans-serif;
-    padding: 25px 10px;
+    padding: 10px 10px;
     border-radius: 5px;
     border: 1px solid #A7AFBE;
     outline: none;
@@ -363,6 +363,7 @@ input[type="file"] {
     left: 8px;
     font-size: 17px;
     color: #b8b8b8;
+    visibility: hidden;
 }
 
 .button-wrap {
@@ -423,9 +424,10 @@ input[type="file"] {
     .help-section {
         padding: 30px 24px 40px;
         box-sizing: border-box;
-        background-color: #F5F6F7;
+    }
+    .help-section .flexbox {
         flex-grow: 1;
-        flex-direction: column-reverse
+        flex-direction: column-reverse;
     }
     .help-img {
         width: 70%;
@@ -464,6 +466,11 @@ input[type="file"] {
         background-repeat: no-repeat;
         margin-left: 12px;
     }
+    
+    #page-title.showmenu::after {
+        transform: rotate(180deg);
+    }
+    
     .top-section {
         background-color: #fdfdfd;
     }
@@ -475,7 +482,7 @@ input[type="file"] {
         margin-bottom: 40px;
         margin-left: 25px;
         min-width: 275px;
-        width: 90%;
+        max-width: 275px;
     }
     
     .progress-accordion {
@@ -501,6 +508,11 @@ input[type="file"] {
         min-width: 275px;
         width: 90%;
     }
-    
-    
+    .upload-button {
+        min-width: 275px;
+        width: 0px;
+    }
+    .upload {
+        margin: 0;
+    }
 }

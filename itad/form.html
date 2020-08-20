@@ -1,8 +1,11 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset=“utf-8” />
+    <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
+    <meta name=“viewport” content=“width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no” />
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="form.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
@@ -15,22 +18,22 @@
     </div>
     
     <div class="accordion" style="position:relative;">
-        <div class="title">Pickup Details</div>
+        <div class="title" id="page-title">Pickup Details</div>
         <div class="accordion-button" style="position:absolute; top:0; left:0; right:0; bottom:0;" onclick="toggleAccordion()"></div>
     </div>
     
     <div class="panel" id="panelID">
         <div class="progress-accordion">
             <div class="progress-title">REQUEST PROGRESS</div>
-            <div class="progress-active form-selector" onclick="goToPage(1)" id="form-selector-1">Pickup Details</div>
+            <div class="progress-active form-selector-1" onclick="goToPage(1,this)">Pickup Details</div>
             <div class="line-1"></div>
-            <div class="form-selector" onclick="goToPage(2)" id="form-selector-2">Equipment Quantities</div>
+            <div class="form-selector-2" onclick="goToPage(2,this)">Equipment Quantities</div>
             <div class="line-1"></div>
-            <div class="form-selector" onclick="goToPage(3)" id="form-selector-3">Shipping Information</div>
+            <div class="form-selector-3" onclick="goToPage(3,this)">Shipping Information</div>
             <div class="line-1"></div>
-            <div class="form-selector" onclick="goToPage(4)" id="form-selector-4">Bulk Pickup Details</div>
+            <div class="form-selector-4" onclick="goToPage(4,this)">Bulk Pickup Details</div>
             <div class="line-1"></div>
-            <div class="form-selector" onclick="goToPage(5)" id="form-selector-5">Uploads</div>
+            <div class="form-selector-5" onclick="goToPage(5,this)">Uploads</div>
         </div>
     </div>
     
@@ -69,13 +72,13 @@
                 <div id="form-5" class="hidden form-panel">
                 
                 <div class="button-wrap">
-                    <label class="upload-button" for="upload">Upload Sample of Requirements</label>
-                    <input id="upload" type="file">
+                    <label class="upload-button" for="uploadrequirements">Upload Sample of Requirements</label>
+                    <input id="uploadrequirements" type="file" name="uploadrequirements">
                 </div>
 
                 <div class="button-wrap">
-                    <label class="upload-button" for="upload">Upload helpful images</label>
-                    <input id="upload" type="file">
+                    <label class="upload-button" for="uploadimages">Upload helpful images</label>
+                    <input id="uploadimages" type="file" name="uploadimages">
                 </div>
 
                 </div>
@@ -108,7 +111,7 @@
 
                     <div class="title-4">On what floor is equipment located</div>
                     <input name="floor" class="form-field" type="text" placeholder="Floor number">
-
+                    <br>
                     <div class="checkmark-section">
                         <div class="title-4">Equipment details</div>
                         <label class="box-button">
@@ -133,28 +136,28 @@
                     <div class="checkmark-section">
                         <div class="title-4">Is there an EXACT date for pickup?</div>
                         <label class="radio-button">
-                          <input type="radio" checked="checked" name="exact-pickup-date">
+                          <input type="radio" checked="checked" name="exact-pickup-date" value="false" onclick="toggleVisibility('exact-date',false)">
                           <span class="radio-checkmark"></span>No, my pickup date is flexible
                         </label>
                         <label class="radio-button">
-                          <input type="radio" checked="checked" name="exact-pickup-date">
+                          <input type="radio" name="exact-pickup-date" value="true" onclick="toggleVisibility('exact-date',true)">
                           <span class="radio-checkmark"></span>Yes
                         </label>
-                        <input name="floor" class="form-field" type="text" placeholder="Date">
+                        <input name="floor" class="form-field hidden" type="date" placeholder="Date" id="exact-date">
                     </div>
 
 
                     <div class="checkmark-section">
                         <div class="title-4">Is there an EXACT time frame for pickup?</div>
                         <label class="radio-button">
-                          <input type="radio" checked="checked" name="exact-pickup-time">
+                          <input type="radio" checked="checked" name="exact-pickup-time" value="false">
                           <span class="radio-checkmark"></span>No, I can do any time
                         </label>
                         <label class="radio-button">
-                          <input type="radio" checked="checked" name="exact-pickup-time">
+                          <input type="radio" name="exact-pickup-time" value="true">
                           <span class="radio-checkmark"></span>Yes
                         </label>
-                        <input name="floor" class="form-field" type="text" placeholder="Time">
+                        <input name="floor" class="form-field" type="time" placeholder="Time">
                     </div>
 
 
@@ -184,12 +187,12 @@
                     </label>
                 </div>
                 <div id="form-2" class="hidden form-panel">
-                    <input name="desktops" class="form-field" type="text" placeholder="Number of desktops">
-                    <input name="laptops" class="form-field" type="text" placeholder="Number of laptops">
-                    <input name="monitors" class="form-field" type="text" placeholder="Number of monitors">
-                    <input name="printers" class="form-field" type="text" placeholder="Number of printers">
-                    <input name="fax" class="form-field" type="text" placeholder="Number of fax machines">
-                    <input name="racks" class="form-field" type="text" placeholder="Number of racks">
+                    <input name="desktops" class="form-field" type="number" placeholder="Number of desktops">
+                    <input name="laptops" class="form-field" type="number" placeholder="Number of laptops">
+                    <input name="monitors" class="form-field" type="number" placeholder="Number of monitors">
+                    <input name="printers" class="form-field" type="number" placeholder="Number of printers">
+                    <input name="fax" class="form-field" type="number" placeholder="Number of fax machines">
+                    <input name="racks" class="form-field" type="number" placeholder="Number of racks">
                     <br>
                     <div class="checkbox-section">
                         <div class="title-3">Are the racks populated?</div>
@@ -204,10 +207,10 @@
                         <input name="racks" class="form-field" type="text" placeholder="How many servers?">
                     </div>
                     <br>
-                    <input name="racks" class="form-field" type="text" placeholder="Number of scanners">
-                    <input name="racks" class="form-field" type="text" placeholder="Number of servers">
-                    <input name="racks" class="form-field" type="text" placeholder="Number of network items">
-                    <input name="racks" class="form-field" type="text" placeholder="Boxes of miscellaneous items">
+                    <input name="racks" class="form-field" type="number" placeholder="Number of scanners">
+                    <input name="racks" class="form-field" type="number" placeholder="Number of servers">
+                    <input name="racks" class="form-field" type="number" placeholder="Number of network items">
+                    <input name="racks" class="form-field" type="number" placeholder="Boxes of miscellaneous items">
                     <br>
                     <div class="title-3">Detailed description</div>
                     <textarea name="description-2" class="text-field" rows="5" cols="30"></textarea>
@@ -228,15 +231,15 @@
         <div>
             <div class="progress">
                 <div class="progress-title">REQUEST PROGRESS</div>
-                <div class="progress-active form-selector" onclick="goToPage(1)" id="form-selector-1">Pickup Details</div>
+                <div class="progress-active form-selector-1" onclick="goToPage(1,this)">Pickup Details</div>
                 <div class="line-1"></div>
-                <div class="form-selector" onclick="goToPage(2)" id="form-selector-2">Equipment Quantities</div>
+                <div class="form-selector-2" onclick="goToPage(2,this)">Equipment Quantities</div>
                 <div class="line-1"></div>
-                <div class="form-selector" onclick="goToPage(3)" id="form-selector-3">Shipping Information</div>
+                <div class="form-selector-3" onclick="goToPage(3,this)">Shipping Information</div>
                 <div class="line-1"></div>
-                <div class="form-selector" onclick="goToPage(4)" id="form-selector-4">Bulk Pickup Details</div>
+                <div class="form-selector-4" onclick="goToPage(4,this)">Bulk Pickup Details</div>
                 <div class="line-1"></div>
-                <div class="form-selector" onclick="goToPage(5)" id="form-selector-5">Uploads</div>
+                <div class="form-selector-5" onclick="goToPage(5,this)">Uploads</div>
             </div>
             
             <div class="form-button" onclick="nextPage()">Continue</div>
@@ -244,12 +247,14 @@
         
     </div>
     
-    <div class="flexbox help-section">
+    <div class="help-section">
+    <div class="flexbox">
         <div class="help-text">
             <div class="help-text1">Need more assistance?</div>
             <div class="help-text2">Contact the CompuCom<br>ITAD Team<br><br>ITADrequests@compucom.com</div>
         </div>
         <div class="help-img"></div>
+    </div>
     </div>
     
     
