@@ -48,7 +48,24 @@ var form = new Vue({
         continueText: function () {
             return this.selectedPage < 6 ? "Continue" : "Submit";
 
+        },
+        titleText: function () {
+            switch (this.selectedPage) {
+                case 1:
+                    return "Pickup Details";
+                case 2:
+                    return "Equipment Quanitities";
+                case 3:
+                    return "Shipping Information";
+                case 4:
+                    return "Bulk Pickup Details";
+                case 5:
+                    return "Uploads";
+
+            }
+            return "Summary";
         }
+
     },
 
     methods: {
