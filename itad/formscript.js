@@ -1,6 +1,8 @@
 /*
+
+articles
+
 submit
-- articles
 -  validation
 -  data binding
 - confirmation page

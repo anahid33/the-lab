@@ -5,6 +5,7 @@ body {
     line-height: 1.5;
     color: #1D222A;
     margin: 0px;
+    background-color: #F5F6F7;
 }
 
 .flexbox {
@@ -319,9 +320,16 @@ label {
     top: 40px;
 }
 
+#formapp {
+    background-color: white;
+    min-height: calc(100vh - 300px);
+    padding-bottom: 40px;
+
+}
+
 .help-section {
-    background-color: #F5F6F7;
     padding: 50px;
+    bottom: 0px;
 }
 
 .help-img {
@@ -397,16 +405,22 @@ input[type="file"] {
 }
 
 @media (max-width: 720px) {
+
+    #formapp {
+        min-height: calc(100vh - 580px);
+
+    }
+
     .main-section {
         display: block;
         width: 100%;
         padding-top: 0px;
-        min-height: calc(100vh - 80px);
         display: flex;
         align-items: stretch;
         flex-direction: column;
         margin: 0px;
     }
+
 
     .input-form {
         max-width: 100%;
@@ -416,7 +430,7 @@ input[type="file"] {
         width: calc(100vw - 48px);
         margin: 0 24px;
         box-sizing: border-box;
-        margin-top: 10px;
+        padding-top: 20px;
         margin-bottom: 0px;
         border-bottom: 1px solid #1D222A;
     }
@@ -447,6 +461,7 @@ input[type="file"] {
     .help-section {
         padding: 30px 24px 40px;
         box-sizing: border-box;
+        padding-top: 40px;
     }
 
     .help-section .flexbox {
@@ -533,8 +548,9 @@ input[type="file"] {
     }
 
     .form-field {
-        min-width: 275px;
-        width: 90%;
+        width: calc(100% - 20px);
+        max-width: 100%;
+        display: block;
     }
 
     .text-field {
