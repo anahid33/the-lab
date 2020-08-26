@@ -56,8 +56,7 @@ body {
     margin-right: 40px;
 }
 
-.form-panel {
-}
+.form-panel {}
 
 .progress {
     display: block;
@@ -117,24 +116,26 @@ body {
     margin-top: 30px;
     margin-bottom: 10px;
 }
+
 .title-4 {
     font-size: 17px;
     font-weight: 700;
     margin-bottom: 5px;
 }
+
 .form-button {
     color: white;
     text-align: center;
     font-size: 17px;
     font-weight: 400;
-    background: rgb(52,151,255);
-    background: linear-gradient(38deg, rgba(52,151,255,1) 0%, rgba(129,191,255,1) 100%);
+    background: rgb(52, 151, 255);
+    background: linear-gradient(38deg, rgba(52, 151, 255, 1) 0%, rgba(129, 191, 255, 1) 100%);
     max-width: 320px;
     height: 40px;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 3px 6px 0px rgba(189,196,213,0.84);
-    -moz-box-shadow: 0px 3px 6px 0px rgba(189,196,213,0.84);
-    box-shadow: 0px 3px 6px 0px rgba(189,196,213,0.84);
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(189, 196, 213, 0.84);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(189, 196, 213, 0.84);
+    box-shadow: 0px 3px 6px 0px rgba(189, 196, 213, 0.84);
     margin-top: 30px;
     padding-top: 15px;
     cursor: pointer;
@@ -158,9 +159,9 @@ body {
 }
 
 ::placeholder {
-  font-weight: 300;
-  color: #868E9A;
-  opacity: 1;
+    font-weight: 300;
+    color: #868E9A;
+    opacity: 1;
 }
 
 .text-field {
@@ -185,128 +186,137 @@ label {
 }
 
 .radio-button {
-  display: block;
-  position: relative;
-  padding-left: 30px;
-  margin-bottom: 15px;
-  cursor: pointer;
-  font-size: 17px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /* Hide the browser's default radio button */
 .radio-button input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 
 /* Create a custom radio button */
 .radio-checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #fff;
-  border-radius: 50%;
-  border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 /* When the radio button is checked, add a blue background */
 .radio-button input:checked ~ .radio-checkmark {
-  background-color: #3B99FD;
-  border: 1px solid #3B99FD;
+    background-color: #3B99FD;
+    border: 1px solid #3B99FD;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .radio-checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+    content: "";
+    position: absolute;
+    display: none;
 }
 
 /* Show the indicator (dot/circle) when checked */
 .radio-button input:checked ~ .radio-checkmark:after {
-  display: block;
+    display: block;
 }
 
 /* Style the indicator (dot/circle) */
 .radio-button .checkmark:after {
-	border-radius: 50%;
-	background: white;
+    border-radius: 50%;
+    background: white;
     background-image: url("https://anahid33.github.io/the-lab/itad/assets/check.svg");
 }
 
 /* The container */
 .box-button {
-  display: block;
-  position: relative;
-  padding-left: 30px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 17px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /* Hide the browser's default checkbox */
 .box-button input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
 }
 
 /* Create a custom checkbox */
 .box-checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
 }
 
 /* On mouse-over, add a grey background color */
 .box-button:hover input ~ .box-checkmark {
-  background-color: #ccc;
+    background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
 .box-button input:checked ~ .box-checkmark {
-  background-color: #2196F3;
+    background-color: #2196F3;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .box-checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+    content: "";
+    position: absolute;
+    display: none;
 }
 
 /* Show the checkmark when checked */
 .box-button input:checked ~ .box-checkmark:after {
-  display: block;
+    display: block;
 }
 
 /* Style the checkmark/indicator */
 .box-button .box-checkmark:after {
-  left: 6px;
-  top: 2px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.form-selector {
+    cursor: pointer;
+}
+
+.progressTracker {
+    position: sticky;
+    top: 40px;
 }
 
 .help-section {
@@ -348,6 +358,7 @@ a {
 .panel {
     display: none;
 }
+
 .accordion-button {
     display: none;
 }
@@ -369,6 +380,7 @@ input[type="file"] {
 .button-wrap {
     position: relative;
 }
+
 .upload-button {
     display: inline-block;
     padding: 20px 20px;
@@ -383,8 +395,8 @@ input[type="file"] {
     margin-bottom: 20px;
     width: 300px;
 }
-    
-@media (max-width: 720px){
+
+@media (max-width: 720px) {
     .main-section {
         display: block;
         width: 100%;
@@ -395,9 +407,11 @@ input[type="file"] {
         flex-direction: column;
         margin: 0px;
     }
+
     .input-form {
         max-width: 100%;
     }
+
     .menu {
         width: calc(100vw - 48px);
         margin: 0 24px;
@@ -406,41 +420,55 @@ input[type="file"] {
         margin-bottom: 0px;
         border-bottom: 1px solid #1D222A;
     }
+
     .red-text {
         font-size: 20px;
     }
+
     .page-title {
         display: none;
     }
+
     .line {
         border-style: none;
     }
+
+    .progressTracker {
+        position: unset;
+    }
+
     .form-section {
         padding: 0 24px;
         box-sizing: border-box;
         flex-grow: 0;
         margin-right: 0px;
     }
+
     .help-section {
         padding: 30px 24px 40px;
         box-sizing: border-box;
     }
+
     .help-section .flexbox {
         flex-grow: 1;
         flex-direction: column-reverse;
     }
+
     .help-img {
         width: 70%;
         margin-bottom: 20px;
     }
+
     .help-text1 {
         font-size: 18px;
         text-align: center;
     }
+
     .help-text2 {
         font-size: 16px;
         text-align: center;
     }
+
     .title {
         margin-top: 30px;
         font-size: 23px;
@@ -448,6 +476,7 @@ input[type="file"] {
         padding-top: 0px;
         margin-left: 25px
     }
+
     button {
         font-size: 28px;
         font-family: 'Nunito Sans', sans-serif;
@@ -455,6 +484,7 @@ input[type="file"] {
         border: 0px;
         padding: 0px;
     }
+
     .title::after {
         background-image: url("https://anahid33.github.io/the-lab/itad/assets/chevron.svg");
         background-size: 18px;
@@ -466,17 +496,19 @@ input[type="file"] {
         background-repeat: no-repeat;
         margin-left: 12px;
     }
-    
+
     #page-title.showmenu::after {
         transform: rotate(180deg);
     }
-    
+
     .top-section {
         background-color: #fdfdfd;
     }
+
     .progress {
         display: none;
     }
+
     .form-button {
         margin-top: 20px;
         margin-bottom: 40px;
@@ -484,34 +516,37 @@ input[type="file"] {
         min-width: 275px;
         max-width: 275px;
     }
-    
+
     .progress-accordion {
         background-color: #fcfcfd;
         padding: 20px 20px 20px;
         margin-bottom: 50px;
         border: 1px solid #ededed;
     }
-    
+
     .panel.showmenu {
         display: block;
     }
-    
+
     .accordion-button {
         display: block;
     }
-    
+
     .form-field {
         min-width: 275px;
         width: 90%;
     }
+
     .text-field {
         min-width: 275px;
         width: 90%;
     }
+
     .upload-button {
         min-width: 275px;
         width: 0px;
     }
+
     .upload {
         margin: 0;
     }

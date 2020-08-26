@@ -38,8 +38,8 @@ body {
 }
 
 .my-button {
-    background: rgb(240,75,72);
-    background: linear-gradient(38deg, rgba(240,75,72,1) 0%, rgba(242,101,99,1) 100%);
+    background: rgb(240, 75, 72);
+    background: linear-gradient(38deg, rgba(240, 75, 72, 1) 0%, rgba(242, 101, 99, 1) 100%);
     max-width: 320px;
     height: 30px;
     color: white;
@@ -49,6 +49,8 @@ body {
     text-align: center;
     padding: 17px;
     margin-top: 30px;
+    text-decoration: none;
+    display: block;
 }
 
 .title-2 {
@@ -111,16 +113,19 @@ body {
     margin-bottom: 10px;
 }
 
-@media (max-width: 720px){
+@media (max-width: 720px) {
     .flexbox {
         display: block;
     }
+
     .article:not(:first-child) {
         margin-left: auto;
     }
+
     .article {
         max-width: 350px;
     }
+
     .title {
         font-size: 35px;
         line-height: 1.3;
@@ -128,11 +133,13 @@ body {
         margin: auto;
         margin-bottom: 40px;
     }
+
     .my-button {
         max-width: 300px;
         margin: auto;
     }
 }
+
 /*
 .my-form {
     max-width: 1000px;
